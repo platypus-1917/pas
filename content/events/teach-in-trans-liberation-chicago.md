@@ -6,7 +6,7 @@ location:
 - Chicago
 sublocation:
 - Northwestern
-media_type: audio
+media_type: video
 excerpt: A teach-in on trans liberation held by David Faes at Northwestern University
   on June 4th, 2019. Description The socialist Left, which historically stood for
   increasing the scope of freedom, has historically shifted positions on issues of

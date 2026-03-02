@@ -6,7 +6,7 @@ location:
 - London
 sublocation:
 - Goldsmiths
-media_type: audio
+media_type: video
 categories:
 - Democracy and the Left
 excerpt: 'A discussion on Democracy and the Left held at Goldsmiths, University of

@@ -4,7 +4,7 @@ date: '2014-11-09T10:51:55'
 slug: podiumsdiskussion-brauchen-wir-eine-linke-einheit
 location:
 - Frankfurt
-media_type: audio
+media_type: video
 featured_image: /uploads/2014/11/1377570_10205486726226581_661286875450045927_n1.jpg
 excerpt: 'Samstag, 22.11.2014 19Uhr Campus Bockenheim, Jügelhaus, HI Mit: Felix (Interventionistische
   Linke) Stefan Engel (Parteivorsitzender MLPD) Paul B. Kleiser (internationale sozialistische

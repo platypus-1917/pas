@@ -4,7 +4,7 @@ date: '2012-03-31T01:28:10'
 slug: lenin-and-the-marxist-left-after-occupy-media
 media_type: audio
 categories:
-- '#Occupy'
+- Occupy
 excerpt: 'A panel discussion held at the 2012 Platypus International Convention on
   31 March 2012. Ben Lewis – Communist Party of Great Britain Tom Riley – International
   Bolshevik Tendency Chris Cutrone (Moderator) – Platypus Affiliated Society Transcript

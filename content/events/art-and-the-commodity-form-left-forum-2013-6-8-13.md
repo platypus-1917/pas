@@ -10,7 +10,7 @@ sublocation:
 - New School
 - SVA
 - Stony Brook
-media_type: audio
+media_type: video
 categories:
 - Art and the Commodity Form
 excerpt: 'A talk and guided discussion held at Left Forum 2013, at Pace University,

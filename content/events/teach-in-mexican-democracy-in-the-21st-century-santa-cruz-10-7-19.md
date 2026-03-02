@@ -4,7 +4,7 @@ date: '2019-10-07T16:04:09'
 slug: teach-in-mexican-democracy-in-the-21st-century-santa-cruz-10-7-19
 location:
 - Santa Cruz
-media_type: audio
+media_type: video
 excerpt: A teach-in at the University of California Santa Cruz. Tracing the decline
   of the Partido Revolucionario Institucional (PRI) in Mexico, the rise of Neoliberalism,
   and the election of AMLO, this teach-in asks how the failure of the Left in the

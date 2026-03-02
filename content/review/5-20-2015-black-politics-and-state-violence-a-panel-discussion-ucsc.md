@@ -4,7 +4,7 @@ date: '2015-05-22T13:36:16'
 slug: 5-20-2015-black-politics-and-state-violence-a-panel-discussion-ucsc
 location:
 - Santa Cruz
-media_type: audio
+media_type: video
 excerpt: . . .
 ---
 

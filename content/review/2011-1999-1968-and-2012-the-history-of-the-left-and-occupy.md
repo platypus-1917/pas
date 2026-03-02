@@ -10,9 +10,9 @@ sublocation:
 - New School
 - SVA
 - Stony Brook
-media_type: audio
+media_type: video
 categories:
-- '#Occupy'
+- Occupy
 excerpt: 'The two historical precedents for #Occupy are Seattle in 1999 and Paris
   in May 1968. The 1960s and 1990s saw the rise of anarchism against otherwise predominant
   liberal, social-democratic and Marxist tendencies. One difference in 2011 is democratic

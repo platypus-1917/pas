@@ -8,7 +8,7 @@ sublocation:
 - SAIC
 media_type: audio
 categories:
-- '#Occupy'
+- Occupy
 excerpt: Panel held on March 31st, 2012 at the Fourth Annual Platypus International
   Convention, School of the Art Institute of Chicago. The two decades of the 1990s-2000s
   form a cycle containing certain common as well as differing concerns. The second

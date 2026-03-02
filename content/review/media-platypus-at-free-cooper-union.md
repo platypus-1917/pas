@@ -10,7 +10,7 @@ sublocation:
 - New School
 - SVA
 - Stony Brook
-media_type: audio
+media_type: video
 excerpt: '[vimeo https://vimeo.com/54836133] Sammy Medina, Pam C. Nogales C., and
   Ross Wolfe gave teach-ins as part of the Free University during the Day of Action
   against Cooper Union’s unprecedented tuition requirements. Pam did a teach-in on

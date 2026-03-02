@@ -7,7 +7,7 @@ location:
 - Chicago
 sublocation:
 - SAIC
-media_type: audio
+media_type: video
 excerpt: 'Panel held on March 31st, 2012 at the Fourth Annual Platypus International
   Convention, School of the Art Institute of Chicago. Transcript in Platypus Review
   #46 (Click below): Hegel famously remarked that the task of philosophy was to “comprehend

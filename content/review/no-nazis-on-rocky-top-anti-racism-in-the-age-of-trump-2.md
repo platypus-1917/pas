@@ -4,7 +4,7 @@ date: '2018-03-21T14:12:37'
 slug: no-nazis-on-rocky-top-anti-racism-in-the-age-of-trump-2
 location:
 - Knoxville
-media_type: audio
+media_type: video
 categories:
 - Anti-fascism
 excerpt: On February 17, 2018, the white-nationalist Traditionalist Workers’ Party

@@ -13,7 +13,7 @@ sublocation:
 - Stony Brook
 media_type: audio
 categories:
-- '#Occupy'
+- Occupy
 excerpt: On May 9th, 2012, Platypus members Ross Wolfe and Benjamin Blumberg made
   an appearance on WBAI (99.5 FM) Occupy Wall Street Radio.
 ---

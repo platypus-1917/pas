@@ -4,7 +4,7 @@ date: '2012-11-14T22:31:18'
 slug: democracy-and-the-left-halifax-11-14-12
 location:
 - Halifax
-media_type: audio
+media_type: video
 categories:
 - Democracy and the Left
 excerpt: 'A panel event held on November 14th, 2012, at Dalhousie University. The

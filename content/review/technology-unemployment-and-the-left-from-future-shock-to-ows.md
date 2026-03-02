@@ -10,9 +10,9 @@ sublocation:
 - New School
 - SVA
 - Stony Brook
-media_type: audio
+media_type: video
 categories:
-- '#Occupy'
+- Occupy
 excerpt: Science and technology are intertwined with the transformation of society.
   For at least two centuries, reformers and revolutionaries have grappled with the
   question of how technology– first machinery, later cybernetics and robotics– might

@@ -15,7 +15,7 @@ sublocation:
 - SAIC
 - UChicago
 - UIC
-media_type: audio
+media_type: video
 excerpt: '[vimeo https://vimeo.com/53764071] In October, the Platypus Review published
   it’s fiftieth issue. In celebration of this landmark occasion, at the issue No.
   50 release party held in New York City on November 15, 2012, an international video

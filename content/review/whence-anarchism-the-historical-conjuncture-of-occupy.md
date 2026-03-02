@@ -8,7 +8,7 @@ sublocation:
 - SAIC
 media_type: audio
 categories:
-- '#Occupy'
+- Occupy
 excerpt: 'Panel held on March 31st, 2012 at the Fourth Annual Platypus International
   Convention, School of the Art Institute of Chicago. #Occupy represents one of the
   most significant prospects and challenges for the Left in the past decade. Working

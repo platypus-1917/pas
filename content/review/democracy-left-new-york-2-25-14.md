@@ -6,7 +6,7 @@ location:
 - New York
 sublocation:
 - SVA
-media_type: audio
+media_type: video
 categories:
 - Democracy and the Left
 excerpt: 'A panel event held at the School for Visual Arts on February 25th, 2014.

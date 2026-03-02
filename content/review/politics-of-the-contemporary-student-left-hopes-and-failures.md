@@ -11,7 +11,7 @@ sublocation:
 - New School
 - SVA
 - Stony Brook
-media_type: audio
+media_type: video
 excerpt: 'A panel discussion with: Alexander L. Hanna (chair): former organizer for
   United Students Against Sweatshops Atlee McFellin: Students for a Democratic Society,
   New School Radical Student Union Pam Nogales: Platypus (New York) C. J. Pereira

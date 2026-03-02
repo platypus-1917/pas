@@ -3,7 +3,7 @@ title: The Relevance of Lenin Today
 date: '2011-12-17T23:29:31'
 slug: the-relevance-of-lenin-today-media
 content_type: transcripted material
-media_type: audio
+media_type: video
 excerpt: '[archiveorg TheRelevanceOfLeninTodayPresentationDiscussion width=640 height=480
   frameborder=0 webkitallowfullscreen=true mozallowfullscreen=true] Transcript in
   Platypus Review #48 (Click below): The Encyclopedia Britannica’s entry on Lenin

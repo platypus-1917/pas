@@ -12,7 +12,7 @@ sublocation:
 - Stony Brook
 media_type: audio
 categories:
-- '#Occupy'
+- Occupy
 excerpt: 'A roundtable discussion with students and activists either directly involved
   with Occupy Wall St. or who are closely following the #Occupy movement. The recent
   #Occupy protests are driven by discontent with the present state of affairs: glaring

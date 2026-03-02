@@ -4,7 +4,7 @@ title: Interview with Domenico Losurdo on Liberalism for The Platypus Review [Me
 date: '2012-03-17T23:49:55'
 slug: interview-with-domenico-losurdo-on-liberalism-for-the-platypus-review
 content_type: transcripted material
-media_type: audio
+media_type: video
 excerpt: 'On March 17, 2012, Ross Wolfe and Pam Nogales of the Platypus Affiliated
   Society interviewed Domenico Losurdo, the author, most recently, of Liberalism:
   A Counter-History (2011). Transcript in Platypus Review #46 (Click below):'

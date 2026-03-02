@@ -4,7 +4,7 @@ date: '2012-12-09T23:01:17'
 slug: democracy-and-the-left-thessaloniki-12-9-12
 location:
 - Thessaloniki
-media_type: audio
+media_type: video
 categories:
 - Democracy and the Left
 excerpt: Σκεπτικό και ερωτήσεις Από την οικονομική κρίση και τη διάσωση των τραπεζών

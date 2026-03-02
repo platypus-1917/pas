@@ -8,7 +8,7 @@ location:
 - New York
 sublocation:
 - NYU
-media_type: audio
+media_type: video
 excerpt: '[vimeo https://vimeo.com/64377736] A panel event held at New York University
   on April 18th, 2013. Transcripted in Platypus Review #57 (Click on banner to see):
   Recently, a series of exchanges between the Communist Party of Great Britain (PCC),

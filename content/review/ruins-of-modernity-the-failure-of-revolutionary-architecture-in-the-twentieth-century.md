@@ -7,7 +7,7 @@ location:
 - New York
 sublocation:
 - NYU
-media_type: audio
+media_type: video
 excerpt: A panel discussion organized by the Platypus Affiliated Society on February
   7th, 2013 at New York University. “Let us not deceive ourselves,” Victor Hugo once
   advised, in his iconic Hunchback of Notre Dame. “Architecture is dead, and will

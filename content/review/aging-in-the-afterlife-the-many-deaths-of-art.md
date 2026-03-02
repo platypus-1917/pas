@@ -7,7 +7,7 @@ location:
 - New York
 sublocation:
 - New School
-media_type: audio
+media_type: video
 excerpt: 'A panel held by the Platypus Affiliated Society on Saturday, February 23rd,
   2013, at the New School. Transcribed in Platypus Review #58 (Click below to see):
   The “death of art” has been a recurring theme within aesthetic and philosophical

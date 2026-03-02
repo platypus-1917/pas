@@ -7,7 +7,7 @@ location:
 - Chicago
 sublocation:
 - UChicago
-media_type: audio
+media_type: video
 categories:
 - Differing Perspectives on the Left
 excerpt: Held October 20th, 2018, at the Univesity of Chicago. Hosted by the Platypus

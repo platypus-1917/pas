@@ -6,7 +6,7 @@ location:
 - Tokyo
 media_type: audio
 categories:
-- '#Occupy'
+- Occupy
 excerpt: On July 17, 2012, Platypus Affiliated Society member Brian Hioe gave a teach-in
   entitled “What is the Occupy Movement? in Akasaka, Tokyo, Japan.
 ---

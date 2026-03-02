@@ -6,9 +6,9 @@ location:
 - New York
 sublocation:
 - NYU
-media_type: audio
+media_type: video
 categories:
-- '#Occupy'
+- Occupy
 excerpt: A roundtable discussion organized by the Platypus Affiliated Society on October
   18, 2012 at New York University. A year, a month, and a day ago marked the official
   beginning of an ostensibly new, post-Obama phase of radical politics in America.

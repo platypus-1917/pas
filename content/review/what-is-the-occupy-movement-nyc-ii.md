@@ -3,9 +3,9 @@ title: 'What is the #Occupy Movement? NYC II [Media Recording]'
 date: '2011-12-09T06:18:00'
 slug: what-is-the-occupy-movement-nyc-ii
 content_type: transcripted material
-media_type: audio
+media_type: video
 categories:
-- '#Occupy'
+- Occupy
 excerpt: '[vimeo http://vimeo.com/33583635] A series of roundtable discussions hosted
   by The Platypus Affiliated Society. This is the second part of the discussion series
   held in New York City. Speakers: Hannah Appel (OWS Think Tank Working Group), Erik

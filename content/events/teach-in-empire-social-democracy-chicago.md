@@ -6,7 +6,7 @@ location:
 - Chicago
 sublocation:
 - SAIC
-media_type: audio
+media_type: video
 excerpt: 'A discussion of the relation of Keynesianism, social-democratic politics
   and Marxism to the purported decline of the U.S. as global hegemonic state, beginning
   in the 1970s and continuing in “Left” discourse to the present held on June 14th,

@@ -10,9 +10,9 @@ sublocation:
 - New School
 - SVA
 - Stony Brook
-media_type: audio
+media_type: video
 categories:
-- '#Occupy'
+- Occupy
 excerpt: 'PLEASE NOTE: Due to technical difficulties, the first twenty minutes of
   this panel were not captured onto video. We apologize for the inconvenience. The
   first twenty minutes as well as the full audio for the panel can be found in the

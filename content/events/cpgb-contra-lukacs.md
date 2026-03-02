@@ -6,7 +6,7 @@ location:
 - Chicago
 sublocation:
 - SAIC
-media_type: audio
+media_type: video
 excerpt: 'A Platypus-wide teach-in on the CPGB’s campaign against Lukacs and its stakes
   for Platypus as a project. Held on Saturday January 11 1-4PM at the School of the
   Art Institute of Chicago 112 S. Michigan Ave. room 920 while simultaneously broadcast

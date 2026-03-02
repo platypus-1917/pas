@@ -8,7 +8,7 @@ sublocation:
 - Goldsmiths
 media_type: audio
 categories:
-- '#Occupy'
+- Occupy
 excerpt: 'Held on March 16th, 2012, at Housmans in London. Speakers: Barbara Dorn
   (IBT) Tammy Samede, Occupier Ed Nagle, Activist Steve Maclean, and Michael Richardson,
   editors of The Occupied Times A roundtable discussion with students and activists

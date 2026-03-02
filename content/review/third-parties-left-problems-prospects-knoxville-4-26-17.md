@@ -4,7 +4,7 @@ date: '2017-04-26T12:55:47'
 slug: third-parties-left-problems-prospects-knoxville-4-26-17
 location:
 - Knoxville
-media_type: audio
+media_type: video
 categories:
 - Electoral Politics
 excerpt: Hosted by the Platypus Affiliated Society at the University of Tennessee

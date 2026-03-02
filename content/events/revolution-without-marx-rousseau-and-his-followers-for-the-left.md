@@ -12,7 +12,7 @@ sublocation:
 - New School
 - SVA
 - Stony Brook
-media_type: audio
+media_type: video
 excerpt: 'A panel discussion held at Left Forum 2013, at Pace University, on June
   9, 2013. This panel was transcripted in Platypus Review #61 (Click on banner below
   to see): Description: Bourgeois society came into full recognition with Rousseau,

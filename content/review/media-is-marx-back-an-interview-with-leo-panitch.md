@@ -4,7 +4,7 @@ date: '2009-02-19T01:18:00'
 slug: media-is-marx-back-an-interview-with-leo-panitch
 location:
 - Toronto
-media_type: audio
+media_type: video
 excerpt: The economic crisis, as many commentators and critics are quick to point
   out, has rekindled interest in—and anxieties over—Marxism. Although many on the
   Left hope this renewed curiosity marks the beginning of a radical turn, similar

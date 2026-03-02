@@ -4,7 +4,7 @@ date: '2013-05-24T04:28:10'
 slug: art-and-the-commodity-form-halifax-5-24-13
 location:
 - Halifax
-media_type: audio
+media_type: video
 categories:
 - Art and the Commodity Form
 excerpt: 'A moderated panel discussion hosted by the Platypus Affiliated Society held

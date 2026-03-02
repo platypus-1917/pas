@@ -4,7 +4,7 @@ date: '2013-03-13T01:51:49'
 slug: religion-and-the-left-halifax-3-13-13
 location:
 - Halifax
-media_type: audio
+media_type: video
 excerpt: 'A panel event held on March 12th, 2013 at King’s College in Hailfax, Canada
   Panelists: Gary Burrill (Member of the Legislative Assembly for Colchester-Musquodoboit
   Valley, Nova Scotia New Democratic Party) Arthur McCalla (Religious Studies, Mount

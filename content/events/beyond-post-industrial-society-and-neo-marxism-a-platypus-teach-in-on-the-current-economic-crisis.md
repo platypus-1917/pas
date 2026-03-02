@@ -7,7 +7,7 @@ location:
 - Chicago
 sublocation:
 - UChicago
-media_type: audio
+media_type: video
 excerpt: '[vimeo https://vimeo.com/54842231] PLEASE NOTE: Due to technical issues,
   only the first forty-five minutes of the talk were recorded. A discussion led by
   Platypus Affiliated Society member Spencer A. Leonard on the current economic crisis,

@@ -7,7 +7,7 @@ location:
 - New York
 sublocation:
 - New School
-media_type: audio
+media_type: video
 excerpt: '[vimeo https://vimeo.com/65807484] A book chat with Richard Greeman, translator
   of Victor Serge’s “Memoirs of a Revolutionary” and “Russia in Danger,” held on May
   8th 2013 at the New School. Victor Serge (1890–1947) was an international revolutionary

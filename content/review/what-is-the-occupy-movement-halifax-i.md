@@ -6,7 +6,7 @@ location:
 - Halifax
 media_type: audio
 categories:
-- '#Occupy'
+- Occupy
 excerpt: 'A roundtable discussion with student activists either directly involved
   with Occupy Nova Scotia or who are closely following the #Occupy movement. Held
   on November 16th, 2011. The recent #Occupy protests are driven by discontent with

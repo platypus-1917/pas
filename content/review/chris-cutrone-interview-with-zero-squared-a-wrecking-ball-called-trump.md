@@ -2,7 +2,7 @@
 title: 'Chris Cutrone interview with Zero Squared: A wrecking ball called Trump?'
 date: '2018-01-18T22:42:58'
 slug: chris-cutrone-interview-with-zero-squared-a-wrecking-ball-called-trump
-media_type: audio
+media_type: video
 excerpt: 'From the Zero Books website (Jan, 18, 2018): ” Chris Cutrone is the founder
   and President of the Platypus Affiliated Society. He is also the author of the rather
   infamous essay “Why Not Trump?” and other essays such as The Millennial Left is

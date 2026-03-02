@@ -2,7 +2,7 @@
 title: 'Liberalism and Socialism: Platypus 2017 International Convention'
 date: '2017-04-08T00:04:00'
 slug: liberalism-and-socialism
-media_type: audio
+media_type: video
 excerpt: 'Held April 8th, 2017 at the 9th Annual International Convention of the Platypus
   Affiliated Society in Chicago. Speakers: Erek Slater (International Marxist Humanist
   Organization; Amalgamated Transit Union Local 241)Yasmin Nair (Against Equality;

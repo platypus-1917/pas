@@ -8,7 +8,7 @@ sublocation:
 - SAIC
 media_type: audio
 categories:
-- '#Occupy'
+- Occupy
 - Differing Perspectives on the Left
 excerpt: At the fourth annual international convention of the Platypus Affiliated
   Society, speakers from various perspectives were asked to bring their experience

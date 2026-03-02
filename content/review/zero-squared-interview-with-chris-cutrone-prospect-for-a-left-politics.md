@@ -2,7 +2,7 @@
 title: 'Zero Squared interview with Chris Cutrone: Prospect for a Left Politics'
 date: '2018-08-02T22:51:03'
 slug: zero-squared-interview-with-chris-cutrone-prospect-for-a-left-politics
-media_type: audio
+media_type: video
 excerpt: 'From the Zero Books website (August 2, 2018): Chris Cutrone is a member
   of the Platypus Affiliated Society, a professor at The School of Art Institute of
   Chicago, and a returning guest to the Zero Books podcast. He is the author of a

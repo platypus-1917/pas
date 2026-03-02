@@ -8,7 +8,7 @@ sublocation:
 - SAIC
 media_type: audio
 categories:
-- '#Occupy'
+- Occupy
 excerpt: Panel held on March 31st, 2012 at the Fourth Annual Platypus International
   Convention, School of the Art Institute of Chicago. In 2009 President Obama’s auto
   bailouts became a major flashpoint between the left and the mainstream of the labor

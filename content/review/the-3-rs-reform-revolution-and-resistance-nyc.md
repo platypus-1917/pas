@@ -6,7 +6,7 @@ location:
 - New York
 sublocation:
 - NYU
-media_type: audio
+media_type: video
 categories:
 - The 3 Rs
 excerpt: Panel held on April 26th, 2012 at New York University, as part of the 3 Rs

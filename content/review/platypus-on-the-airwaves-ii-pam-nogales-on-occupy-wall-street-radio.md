@@ -12,7 +12,7 @@ sublocation:
 - Stony Brook
 media_type: audio
 categories:
-- '#Occupy'
+- Occupy
 excerpt: On May 4th, 2012, Platypus member Pam Nogales made an appearance on WBAI
   (99.5 FM) Occupy Wall Street Radio.
 ---

@@ -8,7 +8,7 @@ sublocation:
 - NYU
 media_type: audio
 categories:
-- '#Occupy'
+- Occupy
 excerpt: Platypus@NYU presents a roundtable discussion following the May 1st General
   Strike. Held on May 2nd, 2012, at New York University. Since November of 2011, and
   with the help of working groups and organizers of OWS, Platypus has been hosting

@@ -6,7 +6,7 @@ location:
 - Chicago
 sublocation:
 - SAIC
-media_type: audio
+media_type: video
 excerpt: A plenary presentation by Chris Cutrone, Spencer Leonard, and Richard Rubin,
   delivered on April 7th, 2012 as part of the 2013 Platypus Affiliated International
   Convention held at the School of the Art Institute of Chicago, upon the trajectories

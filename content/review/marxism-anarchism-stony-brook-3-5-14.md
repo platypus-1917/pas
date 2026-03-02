@@ -6,7 +6,7 @@ location:
 - New York
 sublocation:
 - Stony Brook
-media_type: audio
+media_type: video
 categories:
 - 'Radical Ideology Today: Marxism and Anarchism'
 excerpt: 'A moderated panel discussion on Marxism and Anarchism held at Stony Brook

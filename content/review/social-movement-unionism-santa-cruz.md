@@ -4,7 +4,7 @@ date: '2015-02-03T03:22:06'
 slug: social-movement-unionism-santa-cruz
 location:
 - Santa Cruz
-media_type: audio
+media_type: video
 excerpt: 'Held February 3, 2015 at the University of California Santa Cruz. Moderated
   by Daniel Rudin. Panelists: Mike Rotkin – Lecturer in Community Studies at the UCSCAllison
   Cabrera – SEIU, National Labor CollegeSteve Early – Labor Notes Description: Recently,

@@ -11,7 +11,7 @@ sublocation:
 - New School
 - SVA
 - Stony Brook
-media_type: audio
+media_type: video
 excerpt: 'Panel presentation by the Platypus Affiliated Society at Left Forum 2009:
   “Turning Points,” Pace University, NYC, April 17-19, 2009 The panelists elucidate
   significant moments in the progressive separation of theory and practice in the

@@ -6,7 +6,7 @@ location:
 - New York
 sublocation:
 - NYU
-media_type: audio
+media_type: video
 excerpt: A panel event held on December 6th, 2012, at New York University. This past
   US election season saw an array of positions on the Left concerning the outcome
   that might follow from either major party’s victory. Among them, there were some

@@ -2,7 +2,7 @@
 title: 'Zero Squared interview with Chris Cutrone: Reframing Trump'
 date: '2017-05-31T15:36:29'
 slug: zero-squared-interview-with-chris-cutrone-reframing-trump
-media_type: audio
+media_type: video
 excerpt: 'Chris Cutrone, founder and President of the Platypus Affiliated Society,
   interviewed by Douglas Lain of Zero Books, on the crisis of neoliberalism and the
   election of Donald Trump. Cutrone’s writings referenced in the interview can be

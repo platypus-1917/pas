@@ -6,7 +6,7 @@ location:
 - Chicago
 sublocation:
 - SAIC
-media_type: audio
+media_type: video
 categories:
 - Differing Perspectives on the Left
 excerpt: At the fifth annual international convention of the Platypus Affiliated Society,

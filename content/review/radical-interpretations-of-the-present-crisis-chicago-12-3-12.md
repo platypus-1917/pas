@@ -6,7 +6,7 @@ location:
 - Chicago
 sublocation:
 - UChicago
-media_type: audio
+media_type: video
 categories:
 - Radical Interpretations of the Present Crisis
 excerpt: A panel event held at the University of Chicago on December 3rd, 2012. RAYMOND

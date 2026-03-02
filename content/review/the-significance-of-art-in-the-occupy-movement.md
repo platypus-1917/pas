@@ -2,9 +2,9 @@
 title: The Significance of Art in the Occupy Movement
 date: '2012-03-17T23:55:36'
 slug: the-significance-of-art-in-the-occupy-movement
-media_type: audio
+media_type: video
 categories:
-- '#Occupy'
+- Occupy
 excerpt: The Occupy Wall Street movement (OWS) has altered conceptions of the international
   socio-political environment on the left, and has accordingly sent shock-waves throughout
   the realm of art and culture. In solidarity with OWS, artists took their work to

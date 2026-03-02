@@ -7,7 +7,7 @@ location:
 - New York
 sublocation:
 - New School
-media_type: audio
+media_type: video
 categories:
 - Radical Interpretations of the Present Crisis
 excerpt: 'A panel event held at the New School in New York City on November 14th,

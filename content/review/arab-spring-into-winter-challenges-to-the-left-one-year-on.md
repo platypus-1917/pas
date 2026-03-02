@@ -10,7 +10,7 @@ sublocation:
 - New School
 - SVA
 - Stony Brook
-media_type: audio
+media_type: video
 excerpt: What began as an exhilarating dawn of possibility in the uprisings in Tunisia
   and Egypt has turned, a year later, into a sobering revelation of limitations on
   change and deepening dangers ahead. How has the Left received the democratic upsurge

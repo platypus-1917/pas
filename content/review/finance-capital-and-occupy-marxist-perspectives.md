@@ -2,9 +2,9 @@
 title: 'Finance Capital and Occupy: Marxist Perspectives'
 date: '2012-03-17T23:52:43'
 slug: finance-capital-and-occupy-marxist-perspectives
-media_type: audio
+media_type: video
 categories:
-- '#Occupy'
+- Occupy
 excerpt: OWS has put the focus on finance capital as a driver of inequality, and on
   the need for political action to address it. But what is the function of finance
   capital in the modern world, and how should our politics address it? This panel

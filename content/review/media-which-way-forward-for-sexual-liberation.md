@@ -7,7 +7,7 @@ location:
 - New York
 sublocation:
 - NYU
-media_type: audio
+media_type: video
 excerpt: '[vimeo https://vimeo.com/41664438] On November 8, 2010, Platypus hosted
   a forum entitled “Which Way Forward for Sexual Liberation?” moderated by Jeremy
   Cohan at New York University. The panel consisted of Gary Mucciaroni, professor

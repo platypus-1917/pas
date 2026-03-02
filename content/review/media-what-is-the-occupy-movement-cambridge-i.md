@@ -9,7 +9,7 @@ sublocation:
 - Cambridge
 media_type: video
 categories:
-- '#Occupy'
+- Occupy
 excerpt: 'A series of roundtable discussions hosted by The Platypus Affiliated Society.
   This is the first part of the discussion series held in Cambridge. SPEAKERS: Jason
   Giannetti (Lawyer) Doug Enaa Greene (Kasama Project) Nick Ford (ALL-oNE) Evan Sarmiento
