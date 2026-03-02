@@ -1,0 +1,27 @@
+<article class="article-card">
+  <h2 class="article-card-title">
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </h2>
+  <div class="article-card-meta">
+    {{ with .Date }}<time datetime="{{ .Format "2006-01-02" }}">{{ .Format "January 2, 2006" }}</time>{{ end }}
+    {{ with .Params.authors }}
+      <span class="meta-sep">&middot;</span>
+      <span class="authors">{{ delimit . ", " }}</span>
+    {{ end }}
+    {{ with .Params.issue }}
+      <span class="meta-sep">&middot;</span>
+      <span class="issue">Issue #{{ . }}</span>
+    {{ end }}
+    {{ with .Params.content_type }}
+      <span class="meta-sep">&middot;</span>
+      <span class="content-type-badge badge-{{ . }}">{{ . }}</span>
+    {{ end }}
+  </div>
+  {{ with .Params.excerpt }}
+    <p class="article-card-excerpt">{{ . }}</p>
+  {{ else }}
+    {{ with .Summary }}
+      <p class="article-card-excerpt">{{ . | plainify | truncate 200 }}</p>
+    {{ end }}
+  {{ end }}
+</article>

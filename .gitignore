@@ -1,0 +1,18 @@
+# Hugo build output
+public/
+resources/_gen/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Raw WP API data (large, re-fetchable)
+scripts/data/raw/
+
+# OS
+.DS_Store
+
+# Editor
+*.swp
+*.swo

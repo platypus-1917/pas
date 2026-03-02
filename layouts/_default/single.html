@@ -1,0 +1,42 @@
+{{ define "main" }}
+<article class="single-article">
+  <header class="article-header">
+    <h1>{{ .Title }}</h1>
+    <div class="article-meta">
+      {{ with .Date }}<time datetime="{{ .Format "2006-01-02" }}">{{ .Format "January 2, 2006" }}</time>{{ end }}
+      {{ with .Params.authors }}
+        <span class="meta-sep">&middot;</span>
+        <span class="authors">{{ delimit . ", " }}</span>
+      {{ end }}
+      {{ with .Params.issue }}
+        <span class="meta-sep">&middot;</span>
+        <span class="issue">Issue #{{ . }}</span>
+      {{ end }}
+      {{ with .Params.content_type }}
+        <span class="meta-sep">&middot;</span>
+        <span class="content-type-badge badge-{{ . }}">{{ . }}</span>
+      {{ end }}
+      {{ with .Params.media_type }}
+        <span class="meta-sep">&middot;</span>
+        <span class="media-type">{{ . }}</span>
+      {{ end }}
+      {{ with .Params.location }}
+        <span class="meta-sep">&middot;</span>
+        <span class="location">{{ . }}{{ with $.Params.sublocation }} ({{ delimit . ", " }}){{ end }}</span>
+      {{ end }}
+    </div>
+  </header>
+  <div class="article-content">
+    {{ .Content }}
+  </div>
+  {{ with .Params.categories }}
+  <footer class="article-footer">
+    <div class="article-categories">
+      {{ range . }}
+        <a href="{{ "categories/" | absURL }}{{ . | urlize }}/" class="category-pill">{{ . }}</a>
+      {{ end }}
+    </div>
+  </footer>
+  {{ end }}
+</article>
+{{ end }}

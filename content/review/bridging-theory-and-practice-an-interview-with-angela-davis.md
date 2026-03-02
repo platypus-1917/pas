@@ -1,0 +1,96 @@
+---
+title: 'Bridging theory and practice: An interview with Angela Davis'
+date: '2021-07-03T11:11:24'
+slug: bridging-theory-and-practice-an-interview-with-angela-davis
+authors:
+- Duyminh Tran
+- Erin Hagood
+issue: 138
+content_type: interview
+excerpt: On December 7, 2020, Erin Hagood and Duyminh Tran interviewed Angela Davis
+  via Zoom. Davis is a political activist, author, and academic whose work has focused
+  on issues on race, class, and feminism. What follows is an edited version of their
+  discussion.
+---
+
+## [Erin Hagood](https://platypus1917.org/category/platypus-review-authors/erin-hagood/) and [Duyminh Tran](https://platypus1917.org/category/platypus-review-authors/duyminh-tran/)
+
+*[Platypus Review 138](https://platypus1917.org/category/pr/issue-138) | July-August 2021*
+
+*On December 7, 2020, Erin Hagood and Duyminh Tran interviewed Angela Davis via Zoom. Davis is a political activist, author, and academic whose work has focused on issues on race, class, and feminism. What follows is an edited version of their discussion.*
+
+**Duyminh Tran:** Could you give us a brief overview of how you became interested in Marxism?
+
+**Angela Davis:** I can tell you that it seems that I was primed by the social environment of my childhood to be receptive to Marxism. My parents had a number of friends who were members of the Communist Party. As a very young child, I had no idea what that was, but I’m certain that the ideas that were instilled into me by my mother had something to do with that. I just can’t tell you exactly how.
+
+I do know that when I attended high school in New York in Greenwich Village at The Little Red School House/Elisabeth Irwin High School, a good number of the teachers had been blacklisted because of their political affiliations and beliefs. As a matter of fact, because they were not allowed to teach in the public school system in New York, the teachers created a cooperative school based on the experiments in progressive education by a woman named Elisabeth Irwin.
+
+My history teacher was a Marxist. At the age of 15, I seriously read *The Communist Manifesto* as a document we were studying in our class. Due to my parents’ connections, I was active in the youth organization of the Communist Party when I was very young. Embracing Marxism came rather naturally. It wasn’t a result of a *prise de conscience*, as one might say — it just happened organically.
+
+![](/uploads/davis-painting-1.png)
+
+Installation view "1 Million Rosen für Angela Davis"  
+with: Heinz Wodzicka, Angela Davis, 1972  
+© SKD, Foto: Laura Fiorio
+
+**DT:** On the topic of your graduate studies, what were the reasons you decided to go to Germany to study with Adorno?
+
+**AD:** I had been studying French literature as my undergraduate major. In the course of studying French literature, I came across quite a number of writers who were also philosophers such as Sartre and Camus. I realized that, while I was extremely interested in the literature and the aesthetic dimension, I was more interested in the philosophical underpinnings of the ideas. I didn’t realize this until I was a senior. I had spent a year in France studying at the Sorbonne. Marcuse, who was teaching at Brandeis University at the time, had been away my sophomore year, and I was away my junior year. I had heard him speak and was looking forward to taking classes with him during my senior year. When I explained my predicament to him, I told him that I was very interested in continental philosophy. At that point I was primarily interested in the existentialists. As a result of my studies in France, I had been reading a lot of Sartre and Camus, as well as other phenomenologists like Merleau-Ponty.
+
+I told Marcuse that I was interested in philosophy but did not possess a foundation because I had never even taken an introductory course to the history of philosophy. And then, on the spot — I was in his office hours at the beginning of the first semester of my senior year — Marcuse said, “Well, let’s study philosophy!” For that entire quarter, I met with him weekly to discuss texts from the pre-Socratics, Plato, Aristotle, Schopenhauer, Locke, and others. He then told me that I would have to take his graduate seminar on Kant’s *Critique of Pure Reason*, which was quite frightening because I had only begun to study philosophy. How could I possibly participate in a class with graduate students who had probably been studying philosophy for many years? But I overcame my fear, took the seminar, and Marcuse called upon me to give the first paper of the seminar.
+
+That is basically how I got hooked on philosophy, but I should point out that I was not really interested in the analytical philosophy that was most popular at that time. What captured my interest was critical theory, which was the approach taken by Marcuse and the Frankfurt School of philosophy — a philosophy applied in an interdisciplinary context as it might assist in the process of changing the world. Marcuse then suggested that I study with Adorno, Horkheimer, and Habermas, who was a young professor at the university at that time. It turned out that was exactly what I was looking for.
+
+**Erin Hagood:** Oftentimes when young people read the history of this period in politics, the philosophy of people like Sartre or the members of the Frankfurt School is often counterposed to the Old Left communists. Those seem to have been two traditions that both influenced you. Could you speak to how what you learned in the Little Red School House and from the communists related to what you learned by reading Sartre and studying with Marcuse and Adorno?
+
+**AD:** I don’t think that there was such a clear division at that time. Of course, there was the up-and-coming New Left as exemplified by the *New Left Review*, for example, which I read during the 1960s. At that particular time, even though I was close to people who were members of the Communist Party, I identified more with the emergent examples of Left theory, politics, and activism that the French intellectuals espoused.
+
+One of the reasons I felt drawn to France was because of the political engagements of public intellectuals. I did not, at that time, consider myself a proponent of the so-called Old Left, but it was always a part of my environment due to my family and friends. I remember that, when I was studying in Frankfurt, I actually went to East Germany because James Jackson, a prominent figure in the U.S. Communist Party, was there for a meeting. He was a very close friend of my parents, and I continue to be friends with his children. His wife, Esther Jackson, was also a major figure. She’s still alive and is 104 now. She was the editor of *Freedomways* and did a lot of political work in the literary world. Politically, I was drawn to what I considered to be the more radical instantiations of Marxism than to the Communist Party, which I tended to associate with my parents and older generations.
+
+**EH:** We would like to ask you about your experience with activism in the 1960s and eventual participation in the Communist Party. In your autobiography[[1]](#_edn1), you talk about your experience in the Black Panther Political Party and the criticisms you had of many groups with which you worked such as the Student Nonviolent Coordinating Committee (SNCC) and the Black Panther Party for Self-Defense. What ultimately brought you to the Communist Party? What did you learn from your experience in the Black Panther Political Party during that period?
+
+**AD:** Initially I was a member of the Black Panther Political Party, one of the many organizations that took on the designation Black Panthers from the Lowndes County Freedom Democratic Party, whose symbol was the black panther. Then I was a member of LA SNCC. Finally, I joined the Communist Party and shortly thereafter the Black Panther Party for Self-Defense (the Black Panther Party with which we are all familiar today). My decision to join the Communist Party, first of all, had to do with a sense of an important lack in the other organizations that I had joined. While I was passionate about Black liberation, I’ve always sought a commitment that embodied interrelations and connections.
+
+I can remember, even when I was growing up in Birmingham, that although white people were certainly racist, we had to be able to reach them because workers’ struggles were important. I suppose I absorbed some of these ideas from the Communists in my social environment. Therefore, having worked with so many black organizations such as the Black Youth Alliance, black student groups, and the Black Panther Political Party (which ran candidates at the time), I understood that black liberation had to be viewed in the context of a broader meaning of freedom.
+
+Two of the people I became close with as I worked in the Black Panther Political Party and LA SNCC, Franklin Alexander and his wife, Kendra Alexander, were members of a formation within the Communist Party called the Che-Lumumba Club. This was a black club within the Communist Party that was not entirely accepted by the larger leadership structure in New York. However, it was accepted by the Communist Party leadership in California as an important way of participating in the black liberation movement while embracing the class struggle and developing a Marxist analysis.
+
+It was actually related to a very specific experience I had as an activist, when SNCC was dismantled because of disagreements regarding the part that women should play in the struggle and specifically their eligibility for leadership roles. Women who were nominally in the leadership of LA SNCC but were not permitted to publicly represent the organization at press conferences, rallies, etc., demanded to be acknowledged because we were actually doing most of the actual work — as is usually the case in movement and other organizations. We also demanded to be recognized as spokespersons. This tension within the organization also had to do with who was a Marxist and who wasn’t. The internal tensions finally led to the demise of the organization.
+
+I’ve always been someone who needs collective contexts, but my organization fell apart as a result of these internal struggles over gender and politics. Kendra, Franklin, and Franklin’s older sister Charlene Mitchell invited me to consider becoming a part of the Che-Lumumba Club in Los Angeles. I was so impressed by the work that they were doing that it seemed like an opportunity to have collective reflection and input. It was also an internationalist organization that addressed local, national, and global issues.
+
+**EH:** You state in your autobiography that you reflected on how your philosophy was connected to your politics. In your essay “Marcuse’s Legacies,”[[2]](#_edn2) you note that the difference between Adorno and Marcuse seemed to hinge upon how their ideas related to the activism occurring during the 1960s. Could you tell us why you felt their disagreement was significant and what those ideas meant specifically for your politics during this period?
+
+**AD:** That’s a very interesting question. I never quite thought about it in that way but thanks for posing it. I did learn a great deal about working within the context of contradictions. I really appreciated Adorno’s analysis. I loved his lectures, read his works voraciously, and had conversations with my student friends in Germany about his work. On the other hand, so many of us were utterly critical of him for his failure to recognize that it was possible at that moment to bridge the gap between theory and practice.
+
+Marcuse was actually doing this. He was doing his philosophy and working within the realm of ideas, but also participated in the radical movements of that era. He spoke at rallies, advised activists, and engaged in reflections on activism in his writings of that era. By contrast, Adorno’s position was basically that the revolution we wanted should have already happened. However, it did not happen due to major flaws in the theory. He believed that our role at that time was to deeply immerse ourselves in theory so that we could generate a theoretical framework capable of producing successful revolutionary activism.
+
+Many of us felt that this stance did not reflect the dialectical approach on which he himself always insisted. He saw his work as dialectical. How could one divorce theories and praxis, ideas and activism in that way? In Frankfurt, we had many conversations about the value of Adorno’s work that also helped us to develop an immanent critique of his stand with respect to activism.
+
+I’m thankful for the fact that you posed the question in those terms, because I never quite thought about it that way. Your formulation of the question highlights what I now consider to be an important feminist method — working within the very tensions defined by relations of contradiction. Although I did not see myself as learning how to work within the context of contradictions, this is precisely what I was attempting to do. When I joined the Communist Party, I was extremely critical of a number of issues related to the party. However, based on the experience I had in Frankfurt, I realized that it was possible to be engaged and active while simultaneously remaining critical.
+
+I see this as a feminist stance. The capacity to dwell within contradictions and render them productive is an important element of feminist methodologies. I’m recognizing now that I had encountered dilemmas that required that insight in the late 1960s when I was studying with Adorno.
+
+**EH:** What do you mean by rendering contradictions productive? What might be an example of rendering a contradiction productive in political activism?
+
+**AD:** As Audre Lorde wrote, “Difference must be not merely tolerated, but seen as a fund of necessary polarities between which our creativity can spark like a dialectic.” This methodology eschews the usual approach to contradiction, which is advocacy to choose one pole or the other. Let’s take a contemporary example. I’m extremely critical of Joe Biden and Kamala Harris for numerous reasons. They aren’t the candidates we need to lead the country in a radical direction, but I’m not going to wipe my hands of them and do nothing, an unfortunately popular position. I think that it’s possible to be critical while simultaneously recognizing how important it was during this last election to get rid of looming fascism by voting against its proponents. Biden and Harris definitely don’t represent the path we need to take in this country, but they do represent the possibility of creating a more open political terrain where activist support of more radical trajectories can play out, even in opposition to their political positions. If we learn how to work at the heart of this contradiction, we may be able to push for those changes that the Biden/Harris administration opposes.
+
+**EH:** In a talk you gave in 2008, you noted that many of the collective demands of the 1960s have transformed into individual benefits in the present. In retrospect, did the New Left’s studies of Marx prove adequate to the task of grasping historical transformations in capital such as, for example, changes in the meaning of race, the economic decline of the black working class, and the post-industrialization of the Midwest, in order to effect political change?
+
+**AD:** The impact of neoliberal ideology has tended to emphasize and further embed the already destructive idea that the individual is the primary unit of society. The paradigm is the individual on the capitalist market. I believe that, in that lecture, I spoke about how affirmative action was intended to uplift entire communities of color and women but was misconstrued as an individualistic solution.
+
+The project was never about individuals. It was always about communities. It has been difficult to create a popular discourse that could help people realize the importance of distinguishing between the individual and the collective. At least, in 2020, perhaps half of the country finally acknowledges that we do need strategies that address structural and systemic racism. It’s not about a particular individual’s capacity to become the first to accomplish something. It’s about uplifting entire communities and attempting to extricate them from the structural problems that have persisted since the aftermath of slavery.
+
+As socialists and the Left more broadly have developed over the past few decades, there has been a pervasive tendency towards reductionism. One might look, for example, at Bernie Sanders and his notion during the previous election that racism can be addressed by attending to its economic dimensions. Jobs for all will end racism. To a certain extent, I think he is right, and we have to embrace these solutions. At the same time, Sanders fails to recognize the particular dynamic of race and racism. Cedric Robinson pointed out that capitalism, from its outset, has always been racial capitalism as a result of colonialism and slavery.
+
+Those inheritances are still with us. Over the last period, the reductionism of what came to be called the New Left has abated somewhat, but there are still vestiges of this tendency to declare that the overarching problem is capitalism, while ignoring the urgency of opposing racism and misogyny. There is an assumption that all one has to do is solve the problems of capitalism in order to fix racism, misogyny, and many other issues that continue to be inaccurately characterized as special interests. Criticisms stating that attempts to address racial or gender issues are divisive have proven to be absolutely incorrect. We are in the process of reimagining what it means to challenge racial capitalism and struggle for a socialist future. Questions of race, gender, and ability all have to be centered.
+
+We could have a very long conversation about this, but I just want to point out that the longstanding failure to embrace a feminist analysis of capitalism and the role of reproductive labor disarmed a great number of traditional Marxists who didn’t want to disturb the notion that the (white) male proletariat is the incontestable agent of change in history. Nowadays, we are seeing an entirely different global economy with women and girls participating in the manufacturing sector. Some of the most progressive unions have recognized that they have to change their approaches. The failure to acknowledge these material changes signals a need to rethink the theoretical framework.
+
+This is one of the things I really appreciate about critical theory. One not only uses these conceptual methods to try to understand the world but must also constantly question the conceptual apparatus. One must ask: why am I using this tool, this concept, this particular theory, this method? How does that change the outcome of what I am trying to learn? How do changes in the material world have an impact on my theoretical framework? **|P**
+
+---
+
+[[1]](#_ednref1) Angela Davis, *Angela Davis: An Autobiography* (New York: International Publishers, 2013).
+
+[[2]](#_ednref2) Angela Davis, “Marcuse’s Legacies,” in *Herbert Marcuse: A Critical Reader*, ed. John Abromeit and W. Mark Cobb (New York: Routledge, 2004), 43-50.

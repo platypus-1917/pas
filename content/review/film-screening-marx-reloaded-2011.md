@@ -1,0 +1,43 @@
+---
+title: 'Film Screening: MARX RELOADED (2011)'
+date: '2012-11-20T00:00:19'
+slug: film-screening-marx-reloaded-2011
+location:
+- London
+sublocation:
+- Goldsmiths
+featured_image: /uploads/2013/01/220px-Marx_Reloaded_promo1.jpg
+excerpt: 'Organized by Platypus and co-sponsored by Center for Cultural Studies at
+  Goldsmiths. Film Screening: MARX RELOADED Tuesday, November 20, 2012 7:00pm Ian
+  Gulland Lecture Theatre Goldsmiths College (map) New Cross, London Borough of Lewisham,
+  London SE14, UK Marx Reloaded is a 2011 German documentary film written and directed
+  by the British writer and theorist Jason Barker. […]'
+---
+
+## Organized by Platypus and co-sponsored by Center for Cultural Studies at Goldsmiths.
+
+## Film Screening:
+
+# MARX RELOADED
+
+**Tuesday, November 20, 2012**
+
+7:00pm
+
+## **Ian Gulland Lecture Theatre**
+
+## **Goldsmiths****College [(map)](http://www.gold.ac.uk/media/campus-map.pdf)**
+
+**New Cross, London Borough of Lewisham, London SE14, UK**
+
+Marx Reloaded is a 2011 German documentary film written and directed by the British writer and theorist Jason Barker. Featuring interviews with several well-known philosophers, the film aims to examine the relevance of Karl Marx’s ideas in relation to the global economic and financial crisis of 2008–09.
+
+**Director Jason Barker will be present for the discussion.**
+
+Official site: <http://www.marxreloaded.com/>
+
+IMDB: <http://www.imdb.com/title/tt1884351/>
+
+//This film screening is in part a lead up event to the NUS demo on 21st of November and the the “Radical Interpretations of the Present Crisis” panel organized by Platypus for Up the Anti: Reclaim the Future event on 1st of December. JOIN [FACEBOOK EVENT](https://www.facebook.com/events/168163079974137/?fref=ts).
+
+FREE!

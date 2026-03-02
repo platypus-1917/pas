@@ -1,0 +1,153 @@
+---
+title: 'Lesekreis: Was ist revolutionärer Marxismus? Sommersemester 2018'
+date: '2018-03-28T09:15:01'
+slug: lesekreis-was-ist-revolutionarer-marxismus-sommersemester-2018
+location:
+- Frankfurt
+excerpt: Am 18. April beginnt mit dem Sommersemester auch unser Lesekreis “Was ist
+  revolutionärer Marxismus?”. Der Lesekreis findet jeden Mittwoch von 18 bis 21 Uhr
+  am Campus Westend der Goethe-Universität statt. Der Raum ist im Seminarhaus SH 1.105.
+  Die Texte werden im voraus gelesen und dann in der Sitzung diskutiert. Neueinsteiger/innen
+  sind herzlich Willkommen. Vorkenntnisse werden […]
+---
+
+Am **18. April** beginnt mit dem Sommersemester auch unser **Lesekreis "Was ist revolutionärer Marxismus?"**. Der Lesekreis findet jeden Mittwoch **von 18 bis 21 Uhr am Campus Westend der Goethe-Universität** statt. Der Raum ist im **Seminarhaus SH 1.105**. Die Texte werden im voraus gelesen und dann in der Sitzung diskutiert. Neueinsteiger/innen sind herzlich Willkommen. Vorkenntnisse werden keine benötigt.
+
+Der Marxismus nach dem Tod von Marx und Engels erfährt mit dem rasanten Wachstum der Arbeiterbewegung und der Entstehung der zweiten Internationale den Charakter einer politischen Massenbewegung, die sich in alle Teile der Welt verbreitet. Wir möchten im ersten Teil des Seminars genauer betrachten, worin der berühmt-berüchtigte Marxismus der Arbeiterbewegung bestanden hat und welche Krise ihn vor dem Beginn des Ersten Weltkrieges erfasst hat und große Teile der Arbeiterbewegung in diesen stürzte. Der Kampf gegen diese “Krise des Marxismus” hat mit der Oktoberrevolution und der deutschen Arbeiterrevolution von 1918-19 einen welthistorischen Maßstab erreicht, der die Hoffnungen und Katastrophen des zwanzigsten Jahrhunderts vorbereitete. Was war das Ziel der 1917 eingeleiteten internationalen Revolution und wie ist diese gescheitert? Welche politischen und ideologischen Konsequenzen hat dieses Scheitern und wie hängt es mit den verhängnisvollen Entwicklungen der 30er und 40er Jahre zusammen?  
+Um diese Fragen näher zu beleuchten, werden wir uns in der zweiten Hälfte des Semesters mit den Reflexionen dieser Entwicklungen beschäftigen, wie sie von zentralen Figuren der Frankfurter Schule entwickelt wurden. Mit Lukács, Benjamin, Horkheimer und Adorno werden wir die Spannung, Kontinuität und Differenz zu den Vertretern der klassischen Periode des Marxismus entwickeln und uns somit ein bedeutendes Instrumentarium zum Verständnis der gegenwärtigen Welt anzueignen suchen. Das problematische Verhältnis von Theorie und Praxis im Marxismus und seiner Entwicklung hat die Welt des zwanzigsten Jahrhunderts entscheidend geprägt und hinterlässt ihre Narben bis in die Gegenwart. Mit der Erforschung dieses Verhältnisses möchten wir Aufschluss darüber erhalten, wie die Vergangenheit unsere eigene Imagination der Zukunft in Bann hält.
+
+**Literaturliste**
+
+- vorausgesetzte / + empfohlene Texte
+
+Woche 1, 18. April, Revolutionäre Führung
+
+- Luxemburg, [“Die ‘Junius-Broschüre’ / Krise der Sozialdemokratie”](https://www.marxists.org/deutsch/archiv/luxemburg/1916/junius/index.htm) Teil I. (1917)
+- J.P. Nettl, “[The German Social Democratic Party 1890-1914 as a Political Model](/uploads/readings/nettljp_spd.pdf)” (1965)
+- Cliff Slaughter, “[What is revolutionary leadership?](https://www.marxists.org/history/etol/writers/slaughter/1960/10/leadership.html)” (1960)
+
+Woche 2, 25. April,  Reform oder Revolution:
+
+- Rosa Luxemburg, "[Sozialreform oder Revolution](https://www.marxists.org/deutsch/archiv/luxemburg/1899/sozrefrev/)" (1899)
+
++ Eugene Debs, ["Competition versus Cooperation"](https://www.marxists.org/archive/debs/works/1900/0929-debs-competitionvcooperation.pdf) (1900)
+
+Woche 3, 02. Mai , Lenin und die Avantgardepartei
+
+- Spartakist-Broschüre, “[Lenin und die Avantgardepartei](http://neoprene.blogsport.de/images/Leninu.Avantgardepartei.pdf)” (1978)
+
+Woche 4, 09. Mai,  Was tun?
+
+- W.I. Lenin, "[Was tun?](https://www.marxists.org/deutsch/archiv/lenin/1902/wastun/index.htm)" (1902)
+
++ Richard Appignanesi und Oscar Zarate / A&Z, "[Introducing Lenin and the Russian Revolution / Lenin for Beginners](http://www.mediafire.com/view/m9h72nf0swd1bac/leninforbeginners1978.pdf)" (1977)
+
+Woche 5, 16. Mai,  Massenstreik und Sozialdemokratie
+
+- Rosa Luxemburg, [„Massenstreik, Partei und Gewerkschaften“](https://www.marxists.org/deutsch/archiv/luxemburg/1906/mapage/) (1906)
+- Rosa Luxemburg, „[Blanquismus und Sozialdemokratie"](/uploads/2015/05/Platypus_LuxemburgBlanquismus.pdf) (1906)
+
+Woche 6, 23. Mai , Permanente Revolution
+
+- Leo Trotzki, ["Ergebnisse und Perspektiven"](https://www.marxists.org/deutsch/archiv/trotzki/1906/erg-pers/index.htm) (1906)
+
++ Tariq Ali and Phil Evans, ["Introducing Trotsky and Marxism / Trotsky for Beginners"](http://workupload.com/file/Ag627ic6) (1980)
+
+Woche 7, 30. Mai,  Staat und Revolution
+
+- W.I. Lenin, ["Staat und Revolution"](https://www.marxists.org/deutsch/archiv/lenin/1917/staatrev/index.htm) (1917)
+
+Woche 8, 06. Juni, Imperialismus
+
+- W.I. Lenin – ["Der Imperialismus als höchstes Stadium des Kapitalismus"](https://www.marxists.org/deutsch/archiv/lenin/1917/imp/) (1916)
+
++ Lenin, “[Sozialismus und Krieg](https://www.marxists.org/deutsch/archiv/lenin/1915/krieg/kap1.htm)”, I. Kapitel: Die Grundsätze des Sozialismus und der Krieg 1914/1915 (1915)
+
+Woche 9, 13. Juni,  Das Scheitern der Revolution
+
+- Rosa Luxemburg, ["Was will der Spartakusbund?"](https://www.marxists.org/deutsch/archiv/luxemburg/1918/12/waswill.htm) (1918)
+- Rosa Luxemburg, ["Unser Programm und die politische Situation"](https://www.marxists.org/deutsch/archiv/luxemburg/1918/12/programm.html) (1918)
+
++ Luxemburg, "[The Socialisation of Society"](https://www.marxists.org/archive/luxemburg/1918/12/20.htm) (1918)
+
++ Luxemburg, [„Die russische Tragödie“](http://luxemburg-lesen.blog.rosalux.de/files/2016/10/Rosa-Luxemburg-Die-russische-Tragödie.pdf) (1918)
+
++ Luxemburg, "[Die Ordnung herrscht in Berlin](http://www.mlwerke.de/lu/lu2_203.htm)" (1919)  
++ Eugene Debs, “[The Day of the People](https://www.marxists.org/archive/debs/works/1919/daypeople.htm)” (1919)
+
++ Sebastian Haffner, "[Die deutsche Revolution 1918/19](http://www.amazon.de/Die-deutsche-Revolution-1918-19/dp/349961622X)" (1968)
+
+Woche 10, 20. Juni,  Rückzug nach der Revolution
+
+- W.I. Lenin, "[Der „Linke Radikalismus“, die Kinderkrankheit im Kommunismus"](https://www.marxists.org/deutsch/archiv/lenin/1920/linksrad/index.html) (1920)
+
++ Lenin, "[Notizen eines Publizisten](http://www.red-channel.de/LeninWerke/LW33.pdf)" (1922/24)
+
+Woche 11, 27. Juni, Dialektik der Verdinglichung
+
+- Lukács, “Der Standpunkt des Proletariats” (= Teil III. des Kapitels “Die Verdinglichung und das Bewußtsein des Proletariats”) In: [Geschichte und Klassenbewusstsein](https://coghnorti.files.wordpress.com/2010/08/lukacs-geschichte-klassenbewusstseinocr.pdf) (1923)
+
++ [Being and becoming (freedom in transformation) / immanent dialectical critique chart of terms](/uploads/cutrone_beingbecomingimmanentcritique102217.pdf)
+
+Woche 12, 04. Juli, Lehren des Oktobers
+
+- Leo Trotzki, 1917 – ["Die Lehren des Oktobers"](https://www.marxists.org/deutsch/archiv/trotzki/1924/lehren/index.htm) (1924)
+
++Leo Trotzki, ["Bolschewismus und Stalinismus"](https://www.marxists.org/deutsch/archiv/trotzki/1937/08/bolstal.htm) (1937)
+
+Woche 13, 11. Juli, Trotzkismus
+
+- Leo Trotzki, ["Der Todeskampf des Kapitalismus und die Aufgaben der 4. Internationale"](https://www.marxists.org/deutsch/archiv/trotzki/1938/uebergang/) (Das Übergangsprogramm) (1938)
+
++ Leo Trotzki, [„Gewerkschaften in der Epoche des imperialistischen Niedergangs“](https://www.marxists.org/deutsch/archiv/trotzki/1940/08/gewerk.htm) (1940)
+
++ Leo Trotzki, [„Brief an James P. Cannon“](https://www.marxists.org/deutsch/archiv//trotzki/1939/vdm/vdm-cannon120939.html) (12. September 1939)
+
++ Leo Trotzki, “[To build communist parties and an international anew](http://www.marxists.org/archive/trotsky/germany/1933/330715.htm)” (1933)
+
+Woche 14, 18. Juli, Der autoritäre Staat
+
+- Max Horkheimer, [„Der autoritäe Staat“](https://www.anarchismus.at/texte-anarchismus/anarchistische-staatskritik/6046-max-horkheimer-autoritaerer-staat) (1942)
+- Friedrich Pollock ["State Capitalism: Its Possibilities and Limitations"](/uploads/2012/12/pollock_statecapitalism.pdf) (1941) ([note 32 on USSR](/uploads/2012/12/pollock_statecapitalism.pdf#page=18))
+
+Woche 15, 25. Juli, Der Begriff der Geschichte
+
+- epigraphs by Louis Menand ([on Edmund Wilson](/uploads/2015/07/menandlouis_edmundwilsonfinlandstationintro2003.pdf)) and Peter Preuss ([on Nietzsche](/uploads/2010/09/preusspeter_nietzschehistoryintro1980.pdf)) "on the modern concept of history"
+- Walter Benjamin, ["Über den Begriff der Geschichte"](http://mxks.de/files/phil/Benjamin.GeschichtsThesen.html) (1940)
+- Benjamin, ["Paralipomena zu den Thesen Über den Begriff der Geschichte"](/uploads/2015/07/Benjamin-Paralipomena-zu-den-Thesen-uber-den-Begriff-der-Geschichte.pdf) (In: GS I) (1940)
+
++ Charles Baudelaire, [from *Fusées* [*Rockets*]](/uploads/2012/04/baudelaire_fusees.pdf) (1867)
+
++ Bertolt Brecht, ["An die Nachgeborenen"](http://www.lyrikline.org/de/gedichte/die-nachgeborenen-740#.VvWVpPvhCW8) (1939)
+
++ Benjamin, ["Erfahrung und Armut"](http://www.textlog.de/benjamin-erfahrung-armut.html) (1933)
+
++ Benjamin, ["Theologisch-politisches Fragment"](http://www.textlog.de/benjamin-theologisch-politisches-fragment.html) (1921/39?)
+
++ Benjamin, ["Zum Planetarium"](http://deutsch.agonia.net/index.php/essay/14008977/index.html) (aus: Einbahnstraße, 1928)
+
++ [Being and becoming (freedom in transformation) / immanent dialectical critique chart of terms](/uploads/cutrone_beingbecomingimmanentcritique102217.pdf)
+
+Woche 16, 01. August, Reflexionen auf den Marxismus
+
+- Theodor Adorno, ["Reflexionen zur Klassentheorie"](http://www.mediafire.com/?6d42zbpzngca589) (1942)
+- Adorno, "Ausschweifung" (Anhang [Minima Moralia](http://www.copyriot.com/sinistra/reading/agnado/minima.html)) (1944–47)
+
++ Adorno, Adorno, "[Zueignung](http://www.copyriot.com/sinistra/reading/agnado/minima.html)", "Vor [Mißbrauch wird gewarnt](http://www.copyriot.com/sinistra/reading/agnado/minima.html)" und "[Zum Ende](http://www.copyriot.com/sinistra/reading/agnado/minima.html)", aus Minima Moralia (1944-47)
+
++ Horkheimer und Adorno, [Diskussion über Theorie und Praxis](/uploads/2015/07/HorkheimerAdornoTheoriePraxis.pdf) (1956)
+
++ [Being and becoming (freedom in transformation) / immanent dialectical critique chart of terms](/uploads/cutrone_beingbecomingimmanentcritique102217.pdf)
+
+Woche 17, 08. August , Theorie und Praxis:
+
+- Adorno, “[Marginalien zu Theorie und Praxis](http://copyriot.com/sinistra/reading/agnado/adorno02.html)” (1969)
+- Adorno, “[Resignation](/uploads/2015/08/AdornoResignation.pdf)” (1969)
+
++ Adorno, ["Zu Subjekt und Objekt"](http://www.mediafire.com/download/fpgawgdwonr922d/ZuSubjektuObjekt.pdf) (1969)
+
++ Adorno, "Spätkapitalismus oder Industriegesellschaft?" (1968) [[Audio]](https://www.youtube.com/watch?v=_pdQA6Y2Lvw) [[Text]](http://www.mediafire.com/download/2tvjccims2zlh49/SpätkapitalismusoIndustriegesellschaft.pdf)
+
++ [Theodor W. Adorno and Marcuse, Briefwechsel über die Neue Linke (1969)](/uploads/SKM_C554e18020519020.pdf) [Dokumente Nr. 300. 313, 322, 336, 338, 340, 349] (1969)
+
++ Esther Leslie, ["Introduction to the 1969 Adorno-Marcuse correspondence"](/uploads/2015/07/leslieesther_adornomarcusenewleft.pdf) (1999)

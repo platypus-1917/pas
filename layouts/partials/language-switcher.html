@@ -1,0 +1,18 @@
+<nav class="language-switcher" aria-label="Language">
+  {{ range .Site.Languages }}
+    {{- if eq .Lang $.Page.Language.Lang }}
+      <span class="lang-current">{{ .LanguageName }}</span>
+    {{- else }}
+      {{- $found := false }}
+      {{- range $.Page.Translations }}
+        {{- if eq .Language.Lang $.Lang }}
+          <a href="{{ .RelPermalink }}" hreflang="{{ .Language.Lang }}">{{ .Language.LanguageName }}</a>
+          {{- $found = true }}
+        {{- end }}
+      {{- end }}
+      {{- if not $found }}
+        <a href="{{ .Lang | printf "/%s/" }}" hreflang="{{ .Lang }}">{{ .LanguageName }}</a>
+      {{- end }}
+    {{- end }}
+  {{- end }}
+</nav>

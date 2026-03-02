@@ -1,0 +1,21 @@
+[build]
+  command = "hugo --minify"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.157.0"
+
+# Proxy media requests to existing WordPress server (temporary)
+# TODO: swap to R2 bucket URL once media is migrated
+[[redirects]]
+  from = "/uploads/*"
+  to = "https://platypus1917.org/wp-content/uploads/:splat"
+  status = 200
+  force = true
+
+# Proxy protocol-relative media URLs
+[[redirects]]
+  from = "/wp-content/uploads/*"
+  to = "https://platypus1917.org/wp-content/uploads/:splat"
+  status = 200
+  force = true

@@ -1,0 +1,150 @@
+baseURL = 'https://platypus1917.org/'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+
+[taxonomies]
+  category = 'categories'
+
+[pagination]
+  pagerSize = 20
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+# --- Permalinks (apply to all languages) ---
+[permalinks]
+  [permalinks.page]
+    review = '/review/:slug/'
+    events = '/events/:slug/'
+    chapters = '/chapters/:slug/'
+    about = '/about/:slug/'
+    pages = '/:slug/'
+    'reading-groups' = '/reading-groups/:slug/'
+
+# --- Languages ---
+[languages]
+  [languages.en]
+    languageCode = 'en-US'
+    languageName = 'English'
+    title = 'Platypus Affiliated Society'
+    weight = 1
+    contentDir = 'content'
+
+  [languages.de]
+    languageCode = 'de-DE'
+    languageName = 'Deutsch'
+    title = 'Platypus Affiliated Society'
+    weight = 2
+    contentDir = 'content/de'
+
+  [languages.el]
+    languageCode = 'el-GR'
+    languageName = 'Ελληνικά'
+    title = 'Platypus Affiliated Society'
+    weight = 3
+    contentDir = 'content/el'
+
+  [languages.sq]
+    languageCode = 'sq-AL'
+    languageName = 'Shqip'
+    title = 'Platypus Affiliated Society'
+    weight = 4
+    contentDir = 'content/sq'
+
+  [languages.es]
+    languageCode = 'es-ES'
+    languageName = 'Español'
+    title = 'Platypus Affiliated Society'
+    weight = 5
+    contentDir = 'content/es'
+
+  [languages.pt]
+    languageCode = 'pt-BR'
+    languageName = 'Português'
+    title = 'Platypus Affiliated Society'
+    weight = 6
+    contentDir = 'content/pt'
+
+# --- English menu ---
+[[languages.en.menus.main]]
+  name = 'About'
+  url = '/about/'
+  weight = 1
+[[languages.en.menus.main]]
+  name = 'Chapters'
+  url = '/chapters/'
+  weight = 2
+[[languages.en.menus.main]]
+  name = 'Reading Groups'
+  url = '/reading-groups/'
+  weight = 3
+[[languages.en.menus.main]]
+  name = 'The Platypus Review'
+  url = '/review/'
+  weight = 4
+[[languages.en.menus.main]]
+  name = 'Events'
+  url = '/events/'
+  weight = 5
+[[languages.en.menus.main]]
+  name = 'Contact'
+  url = '/contact/'
+  weight = 6
+[[languages.en.menus.main]]
+  name = 'Donate'
+  url = '/donate/'
+  weight = 7
+
+# --- German menu ---
+[[languages.de.menus.main]]
+  name = 'Über uns'
+  url = '/de/about/'
+  weight = 1
+[[languages.de.menus.main]]
+  name = 'Ortsgruppen'
+  url = '/de/chapters/'
+  weight = 2
+[[languages.de.menus.main]]
+  name = 'Lesekreise'
+  url = '/de/reading-groups/'
+  weight = 3
+[[languages.de.menus.main]]
+  name = 'Die Platypus Review'
+  url = '/de/review/'
+  weight = 4
+[[languages.de.menus.main]]
+  name = 'Veranstaltungen'
+  url = '/de/events/'
+  weight = 5
+
+# --- Greek menu ---
+[[languages.el.menus.main]]
+  name = 'Σχετικά'
+  url = '/el/about/'
+  weight = 1
+[[languages.el.menus.main]]
+  name = 'Ομάδες μελέτης'
+  url = '/el/reading-groups/'
+  weight = 3
+[[languages.el.menus.main]]
+  name = 'Κείμενα'
+  url = '/el/review/'
+  weight = 4
+
+# --- Albanian menu ---
+[[languages.sq.menus.main]]
+  name = 'Rreth nesh'
+  url = '/sq/review/'
+  weight = 1
+
+# --- Spanish menu ---
+[[languages.es.menus.main]]
+  name = 'Artículos'
+  url = '/es/review/'
+  weight = 1
+
+# --- Portuguese menu ---
+[[languages.pt.menus.main]]
+  name = 'Sobre'
+  url = '/pt/about/'
+  weight = 1

@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="homepage">
+  <section class="hero">
+    <h1>{{ .Site.Title }}</h1>
+    <p class="tagline">{{ i18n "tagline" }}</p>
+  </section>
+
+  <section class="home-section">
+    <h2><a href="{{ relLangURL "/review/" }}">{{ i18n "reviewTitle" }}</a></h2>
+    <div class="article-list">
+      {{ range (where .Site.RegularPages "Section" "review") | first 10 }}
+        {{ partial "article-card.html" . }}
+      {{ end }}
+    </div>
+    <a href="{{ relLangURL "/review/" }}" class="see-all">{{ i18n "allArticles" }} &rarr;</a>
+  </section>
+
+  <section class="home-section">
+    <h2><a href="{{ relLangURL "/events/" }}">{{ i18n "eventsTitle" }}</a></h2>
+    <div class="article-list">
+      {{ range (where .Site.RegularPages "Section" "events") | first 5 }}
+        {{ partial "article-card.html" . }}
+      {{ end }}
+    </div>
+    <a href="{{ relLangURL "/events/" }}" class="see-all">{{ i18n "allEvents" }} &rarr;</a>
+  </section>
+</div>
+{{ end }}
