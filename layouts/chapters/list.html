@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="chapters-page">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  {{ with .Site.Data.chapters }}
+    {{ range .regions }}
+    <section class="chapter-region">
+      <h2>{{ .name }}</h2>
+      {{ range .subregions }}
+      <div class="chapter-subregion">
+        <h3>{{ .name }}</h3>
+        <ul class="chapter-list">
+          {{ range .chapters }}
+          <li>
+            <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    </section>
+    {{ end }}
+
+    {{ with .remote_note }}
+    <div class="chapter-remote-note">
+      <p>{{ . }}</p>
+    </div>
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}

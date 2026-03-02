@@ -237,3 +237,32 @@ collections:
       - { label: "Datum", name: "date", widget: "datetime", required: false }
       - { label: "Slug", name: "slug", widget: "string", required: false }
       - { label: "Inhalt", name: "body", widget: "markdown" }
+
+  # =====================================================
+  # DATA FILES
+  # =====================================================
+
+  - name: "chapters-data"
+    label: "Chapters Directory"
+    files:
+      - label: "Chapter Listings"
+        name: "chapters"
+        file: "data/chapters.yml"
+        fields:
+          - label: "Regions"
+            name: "regions"
+            widget: "list"
+            fields:
+              - { label: "Region Name", name: "name", widget: "string" }
+              - label: "Sub-regions"
+                name: "subregions"
+                widget: "list"
+                fields:
+                  - { label: "Sub-region Name", name: "name", widget: "string" }
+                  - label: "Chapters"
+                    name: "chapters"
+                    widget: "list"
+                    fields:
+                      - { label: "Chapter Name", name: "name", widget: "string" }
+                      - { label: "Link URL", name: "url", widget: "string" }
+          - { label: "Remote Note", name: "remote_note", widget: "text", required: false }

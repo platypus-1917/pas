@@ -469,6 +469,74 @@ a:hover {
   color: #fff;
 }
 
+/* === Chapters page === */
+.chapters-page {
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+
+.chapters-page > p {
+  color: var(--color-text-muted);
+  margin-bottom: 2rem;
+}
+
+.chapter-region {
+  margin-bottom: 2.5rem;
+}
+
+.chapter-region h2 {
+  font-family: var(--font-sans);
+  font-size: 1.4rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--color-accent);
+  margin-bottom: 1rem;
+}
+
+.chapter-subregion {
+  margin-bottom: 1.5rem;
+}
+
+.chapter-subregion h3 {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.5rem;
+}
+
+.chapter-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.4rem 2rem;
+}
+
+.chapter-list li {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  padding: 0.3rem 0;
+}
+
+.chapter-list a {
+  color: var(--color-link);
+}
+
+.chapter-list a:hover {
+  color: var(--color-link-hover);
+}
+
+.chapter-remote-note {
+  margin-top: 2rem;
+  padding: 1rem 1.25rem;
+  background: #f0f0f0;
+  border-radius: 4px;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
 /* === Responsive === */
 @media (max-width: 768px) {
   .nav-toggle {
