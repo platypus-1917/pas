@@ -1,0 +1,239 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
+locale: en
+
+collections:
+  # =====================================================
+  # ENGLISH COLLECTIONS
+  # =====================================================
+
+  - name: "review"
+    label: "Review (English)"
+    folder: "content/review"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - label: "Authors"
+        name: "authors"
+        widget: "list"
+        required: false
+        field: { label: "Name", name: "name", widget: "string" }
+      - { label: "Issue Number", name: "issue", widget: "number", required: false, value_type: "int" }
+      - label: "Content Type"
+        name: "content_type"
+        widget: "select"
+        required: false
+        options: ["article", "interview", "transcript", "translation", "review"]
+      - label: "Media Type"
+        name: "media_type"
+        widget: "select"
+        required: false
+        options: ["audio", "video"]
+      - label: "Location"
+        name: "location"
+        widget: "list"
+        required: false
+        field: { label: "City", name: "city", widget: "string" }
+      - label: "Sublocation"
+        name: "sublocation"
+        widget: "list"
+        required: false
+        field: { label: "Venue", name: "venue", widget: "string" }
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        required: false
+        field: { label: "Category", name: "category", widget: "string" }
+      - { label: "Featured Image", name: "featured_image", widget: "image", required: false }
+      - { label: "Excerpt", name: "excerpt", widget: "text", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "events"
+    label: "Events (English)"
+    folder: "content/events"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - label: "Location"
+        name: "location"
+        widget: "list"
+        required: false
+        field: { label: "City", name: "city", widget: "string" }
+      - label: "Sublocation"
+        name: "sublocation"
+        widget: "list"
+        required: false
+        field: { label: "Venue", name: "venue", widget: "string" }
+      - label: "Media Type"
+        name: "media_type"
+        widget: "select"
+        required: false
+        options: ["audio", "video"]
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        required: false
+        field: { label: "Category", name: "category", widget: "string" }
+      - { label: "Excerpt", name: "excerpt", widget: "text", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "about"
+    label: "About (English)"
+    folder: "content/about"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", required: false }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "chapters"
+    label: "Chapters (English)"
+    folder: "content/chapters"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", required: false }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "reading-groups"
+    label: "Reading Groups (English)"
+    folder: "content/reading-groups"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", required: false }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # =====================================================
+  # GERMAN COLLECTIONS
+  # =====================================================
+
+  - name: "de-review"
+    label: "Review (Deutsch)"
+    folder: "content/de/review"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Datum", name: "date", widget: "datetime" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - label: "Autoren"
+        name: "authors"
+        widget: "list"
+        required: false
+        field: { label: "Name", name: "name", widget: "string" }
+      - { label: "Ausgabe", name: "issue", widget: "number", required: false, value_type: "int" }
+      - label: "Inhaltstyp"
+        name: "content_type"
+        widget: "select"
+        required: false
+        options: ["article", "interview", "transcript", "translation", "review"]
+      - label: "Medientyp"
+        name: "media_type"
+        widget: "select"
+        required: false
+        options: ["audio", "video"]
+      - label: "Ort"
+        name: "location"
+        widget: "list"
+        required: false
+        field: { label: "Stadt", name: "city", widget: "string" }
+      - label: "Kategorien"
+        name: "categories"
+        widget: "list"
+        required: false
+        field: { label: "Kategorie", name: "category", widget: "string" }
+      - { label: "Beitragsbild", name: "featured_image", widget: "image", required: false }
+      - { label: "Auszug", name: "excerpt", widget: "text", required: false }
+      - { label: "Inhalt", name: "body", widget: "markdown" }
+
+  - name: "de-events"
+    label: "Veranstaltungen (Deutsch)"
+    folder: "content/de/events"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Datum", name: "date", widget: "datetime" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - label: "Ort"
+        name: "location"
+        widget: "list"
+        required: false
+        field: { label: "Stadt", name: "city", widget: "string" }
+      - { label: "Auszug", name: "excerpt", widget: "text", required: false }
+      - { label: "Inhalt", name: "body", widget: "markdown" }
+
+  - name: "de-about"
+    label: "Über uns (Deutsch)"
+    folder: "content/de/about"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Datum", name: "date", widget: "datetime", required: false }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Inhalt", name: "body", widget: "markdown" }
+
+  - name: "de-chapters"
+    label: "Ortsgruppen (Deutsch)"
+    folder: "content/de/chapters"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Datum", name: "date", widget: "datetime", required: false }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Inhalt", name: "body", widget: "markdown" }
+
+  - name: "de-reading-groups"
+    label: "Lesekreise (Deutsch)"
+    folder: "content/de/reading-groups"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Datum", name: "date", widget: "datetime", required: false }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Inhalt", name: "body", widget: "markdown" }

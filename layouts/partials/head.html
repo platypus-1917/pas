@@ -4,3 +4,4 @@
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}{{ end }}">
 {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
