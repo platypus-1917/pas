@@ -579,7 +579,9 @@ def extract_locations(category_ids, location_map):
 
 def extract_topics(category_ids, topic_map):
     """Extract meaningful topic categories."""
-    return [topic_map[cid] for cid in category_ids if cid in topic_map]
+    topics = [topic_map[cid] for cid in category_ids if cid in topic_map]
+    # Sanitize: remove chars that produce invalid filenames (#, ?)
+    return [t.lstrip("#") for t in topics]
 
 
 def detect_language(post_or_page, category_ids, categories_raw):
