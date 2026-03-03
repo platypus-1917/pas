@@ -334,3 +334,28 @@ collections:
                   - { label: "Thumbnail", name: "image", widget: "image", required: false }
               - { label: "Archive URL", name: "archive_url", widget: "string", required: false }
           - { label: "Contact Email", name: "contact_email", widget: "string", required: false }
+
+  - name: "platypus-review-data"
+    label: "Platypus Review"
+    files:
+      - label: "Review Page Data"
+        name: "platypus-review"
+        file: "data/platypus_review.yml"
+        fields:
+          - { label: "Current Issue Number", name: "current_issue", widget: "number", value_type: "int" }
+          - { label: "Editorial Statement", name: "editorial_statement", widget: "text" }
+          - { label: "Submission Guidelines", name: "submission_guidelines", widget: "text" }
+          - { label: "Submission Email", name: "submission_email", widget: "string" }
+          - label: "Staff"
+            name: "staff"
+            widget: "list"
+            fields:
+              - { label: "Role", name: "role", widget: "string" }
+              - label: "Names"
+                name: "names"
+                widget: "list"
+                field: { label: "Name", name: "name", widget: "string" }
+          - label: "Funded By"
+            name: "funded_by"
+            widget: "list"
+            field: { label: "Organization", name: "org", widget: "string" }

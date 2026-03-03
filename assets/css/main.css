@@ -807,6 +807,139 @@ a:hover {
   color: var(--color-accent);
 }
 
+/* === Platypus Review page === */
+.pr-page {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.pr-page > h1 {
+  font-family: var(--font-sans);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.pr-section {
+  margin-bottom: 2.5rem;
+}
+
+.pr-section h2 {
+  font-family: var(--font-sans);
+  font-size: 1.4rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--color-accent);
+  margin-bottom: 1.5rem;
+}
+
+.pr-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.pr-info-box {
+  background: #f5f5f5;
+  border-radius: 4px;
+  padding: 1.25rem 1.5rem;
+}
+
+.pr-info-box h3 {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.pr-info-box p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
+.pr-submit-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+.pr-staff {
+  margin-bottom: 1.5rem;
+}
+
+.pr-staff h3 {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.pr-staff-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 2rem;
+}
+
+.pr-staff-item {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+}
+
+.pr-staff-item dt {
+  font-weight: 600;
+  color: var(--color-text);
+  display: inline;
+}
+
+.pr-staff-item dt::after {
+  content: ": ";
+}
+
+.pr-staff-item dd {
+  display: inline;
+  color: var(--color-text-muted);
+}
+
+.pr-funded h3 {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.pr-funders {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  line-height: 1.8;
+}
+
+.pr-archive-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.pr-issue-pill {
+  display: inline-block;
+  padding: 0.3em 0.7em;
+  background: var(--color-header-bg);
+  color: var(--color-header-text);
+  border-radius: 3px;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.pr-issue-pill:hover {
+  background: var(--color-accent);
+  color: #fff;
+}
+
 /* === Responsive === */
 @media (max-width: 768px) {
   .nav-toggle {
@@ -862,5 +995,9 @@ a:hover {
 
   .book-editions {
     justify-content: center;
+  }
+
+  .pr-info-grid {
+    grid-template-columns: 1fr;
   }
 }

@@ -1,12 +1,95 @@
 {{ define "main" }}
-<div class="list-page review-list">
+<div class="pr-page">
   <h1>{{ .Title }}</h1>
   {{ .Content }}
-  <div class="article-list">
-    {{ range .Paginator.Pages }}
-      {{ partial "article-card.html" . }}
+
+  {{ $reviewData := .Site.Data.platypus_review }}
+  {{ $currentIssue := $reviewData.current_issue }}
+
+  {{/* Current Issue */}}
+  {{ $currentArticles := where .Pages ".Params.issue" $currentIssue }}
+  {{ with $currentArticles }}
+  <section class="pr-section">
+    <h2>Current Issue — #{{ $currentIssue }}</h2>
+    <div class="article-list">
+      {{ range . }}
+        {{ partial "article-card.html" . }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* Editorial & Submission Info */}}
+  <div class="pr-info-grid">
+    {{ with $reviewData.editorial_statement }}
+    <div class="pr-info-box">
+      <h3>Editorial Statement</h3>
+      <p>{{ . }}</p>
+    </div>
+    {{ end }}
+
+    {{ with $reviewData.submission_guidelines }}
+    <div class="pr-info-box">
+      <h3>Submissions</h3>
+      <p>{{ . }}</p>
+      {{ with $reviewData.submission_email }}
+      <a href="mailto:{{ . }}" class="pr-submit-link">{{ . }}</a>
+      {{ end }}
+    </div>
     {{ end }}
   </div>
-  {{ template "_internal/pagination.html" . }}
+
+  {{/* Staff */}}
+  {{ with $reviewData.staff }}
+  <section class="pr-section pr-staff">
+    <h3>Staff</h3>
+    <dl class="pr-staff-list">
+      {{ range . }}
+      <div class="pr-staff-item">
+        <dt>{{ .role }}</dt>
+        <dd>{{ delimit .names ", " }}</dd>
+      </div>
+      {{ end }}
+    </dl>
+  </section>
+  {{ end }}
+
+  {{/* Funded By */}}
+  {{ with $reviewData.funded_by }}
+  <section class="pr-section pr-funded">
+    <h3>Funded By</h3>
+    <p class="pr-funders">{{ delimit . " · " }}</p>
+  </section>
+  {{ end }}
+
+  {{/* Archive by Issue */}}
+  <section class="pr-section">
+    <h2>Archive</h2>
+    {{ $allIssues := slice }}
+    {{ range .Pages }}
+      {{ with .Params.issue }}
+        {{ $allIssues = $allIssues | append (int .) }}
+      {{ end }}
+    {{ end }}
+    {{ $uniqueIssues := $allIssues | uniq | sort | collections.Reverse }}
+    <div class="pr-archive-grid">
+      {{ range $uniqueIssues }}
+      {{ if ne . (int $currentIssue) }}
+      <a href="#issue-{{ . }}" class="pr-issue-pill">#{{ . }}</a>
+      {{ end }}
+      {{ end }}
+    </div>
+  </section>
+
+  {{/* All articles paginated */}}
+  <section class="pr-section">
+    <h2>All Articles</h2>
+    <div class="article-list">
+      {{ range .Paginator.Pages }}
+        {{ partial "article-card.html" . }}
+      {{ end }}
+    </div>
+    {{ template "_internal/pagination.html" . }}
+  </section>
 </div>
 {{ end }}
