@@ -2,6 +2,13 @@
 title: 'Georgetown Spring 2023 Reading Group: Introduction to Revolutionary Marxism'
 date: '2023-01-08T20:53:56'
 slug: georgetown-spring-2023-reading-group-introduction-to-revolutionary-marxism
+status: archive
+semester: "Spring 2023"
+reading_group_type: introductory
+location: "Washington, D.C."
+venue: "New North 204, Georgetown University"
+day: "Sunday"
+time: "2:00 PM"
 ---
 
 Every Sunday, 2 pm  

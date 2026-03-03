@@ -1,0 +1,27 @@
+{{ define "main" }}
+<article class="single-article">
+  <header class="article-header">
+    <h1>{{ .Title }}</h1>
+    {{ if or .Params.location .Params.day .Params.time .Params.semester }}
+    <div class="rg-info-box">
+      {{ with .Params.semester }}<div class="rg-info-item"><strong>Semester:</strong> {{ . }}</div>{{ end }}
+      {{ with .Params.location }}<div class="rg-info-item"><strong>Location:</strong> {{ . }}{{ with $.Params.venue }} — {{ . }}{{ end }}</div>{{ end }}
+      {{ if or .Params.day .Params.time }}
+      <div class="rg-info-item">
+        <strong>Meets:</strong>
+        {{ with .Params.day }}{{ . }}{{ end }}{{ if and .Params.day .Params.time }}s, {{ end }}{{ with .Params.time }}{{ . }}{{ end }}
+      </div>
+      {{ end }}
+      {{ with .Params.status }}
+        {{ if eq . "current" }}
+        <span class="rg-status-badge rg-status-current">Currently running</span>
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+  </header>
+  <div class="article-content">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

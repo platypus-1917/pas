@@ -2,6 +2,8 @@
 title: Primary Reading Group Archive
 date: '2023-04-23T13:19:40'
 slug: primary-reading-group-archive
+status: archive
+reading_group_type: primary
 ---
 
 - [Platypus primary Marxist reading group Winter – Spring 2026](https://platypus1917.org/2025/12/18/platypus-primary-marxist-reading-group-winter-spring-2026/)December 18, 2025

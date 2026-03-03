@@ -133,6 +133,17 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime", required: false }
       - { label: "Slug", name: "slug", widget: "string", required: false }
+      - label: "Status"
+        name: "status"
+        widget: "select"
+        options: ["current", "archive"]
+        default: "current"
+      - { label: "Semester", name: "semester", widget: "string", required: false }
+      - { label: "Reading Group Type", name: "reading_group_type", widget: "string", required: false, hint: "e.g. primary, introductory" }
+      - { label: "Location", name: "location", widget: "string", required: false }
+      - { label: "Venue", name: "venue", widget: "string", required: false }
+      - { label: "Day", name: "day", widget: "string", required: false, hint: "e.g. Tuesday" }
+      - { label: "Time", name: "time", widget: "string", required: false, hint: "e.g. 6:00 PM" }
       - { label: "Body", name: "body", widget: "markdown" }
 
   # =====================================================
@@ -236,6 +247,17 @@ collections:
       - { label: "Titel", name: "title", widget: "string" }
       - { label: "Datum", name: "date", widget: "datetime", required: false }
       - { label: "Slug", name: "slug", widget: "string", required: false }
+      - label: "Status"
+        name: "status"
+        widget: "select"
+        options: ["current", "archive"]
+        default: "current"
+      - { label: "Semester", name: "semester", widget: "string", required: false }
+      - { label: "Lesekreis-Typ", name: "reading_group_type", widget: "string", required: false, hint: "z.B. primary, introductory" }
+      - { label: "Ort", name: "location", widget: "string", required: false }
+      - { label: "Veranstaltungsort", name: "venue", widget: "string", required: false }
+      - { label: "Tag", name: "day", widget: "string", required: false, hint: "z.B. Dienstag" }
+      - { label: "Uhrzeit", name: "time", widget: "string", required: false, hint: "z.B. 18:00" }
       - { label: "Inhalt", name: "body", widget: "markdown" }
 
   # =====================================================

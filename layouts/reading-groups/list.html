@@ -1,0 +1,42 @@
+{{ define "main" }}
+<div class="reading-groups-page">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  {{ $current := where .Pages ".Params.status" "current" }}
+  {{ $archive := .Pages | complement $current }}
+
+  {{ with $current }}
+  <section class="rg-section">
+    <h2>Current Reading Groups</h2>
+    <div class="rg-current-grid">
+      {{ range . }}
+      <div class="rg-card">
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        {{ with .Params.semester }}<div class="rg-meta-item"><strong>Semester:</strong> {{ . }}</div>{{ end }}
+        {{ with .Params.location }}<div class="rg-meta-item"><strong>Location:</strong> {{ . }}{{ with $.Params.venue }} — {{ . }}{{ end }}</div>{{ end }}
+        {{ if or .Params.day .Params.time }}
+        <div class="rg-meta-item">
+          <strong>Meets:</strong>
+          {{ with .Params.day }}{{ . }}{{ end }}{{ if and .Params.day .Params.time }}s, {{ end }}{{ with .Params.time }}{{ . }}{{ end }}
+        </div>
+        {{ end }}
+        <a href="{{ .RelPermalink }}" class="rg-syllabus-link">View syllabus</a>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{ with $archive }}
+  <section class="rg-section">
+    <h2>Archive</h2>
+    <div class="article-list">
+      {{ range . }}
+        {{ partial "article-card.html" . }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+</div>
+{{ end }}

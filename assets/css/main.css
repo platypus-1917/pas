@@ -619,6 +619,123 @@ a:hover {
   color: #fff;
 }
 
+/* === Reading groups page === */
+.reading-groups-page {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.reading-groups-page > h1 {
+  font-family: var(--font-sans);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.reading-groups-page > p {
+  color: var(--color-text-muted);
+  margin-bottom: 2rem;
+}
+
+.rg-section {
+  margin-bottom: 3rem;
+}
+
+.rg-section h2 {
+  font-family: var(--font-sans);
+  font-size: 1.4rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--color-accent);
+  margin-bottom: 1.5rem;
+}
+
+.rg-current-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.rg-card {
+  background: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 1.25rem 1.5rem;
+}
+
+.rg-card h3 {
+  font-family: var(--font-sans);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.rg-card h3 a {
+  color: var(--color-text);
+}
+
+.rg-card h3 a:hover {
+  color: var(--color-accent);
+}
+
+.rg-meta-item {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.3rem;
+}
+
+.rg-meta-item strong {
+  color: var(--color-text);
+}
+
+.rg-syllabus-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+.rg-syllabus-link:hover {
+  color: var(--color-accent-hover);
+}
+
+.rg-info-box {
+  background: #f5f5f5;
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+  margin-top: 0.75rem;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+}
+
+.rg-info-item {
+  margin-bottom: 0.25rem;
+  color: var(--color-text-muted);
+}
+
+.rg-info-item strong {
+  color: var(--color-text);
+}
+
+.rg-status-badge {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.2em 0.6em;
+  border-radius: 3px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.rg-status-current {
+  background: #eafaf1;
+  color: #27ae60;
+}
+
 /* === Responsive === */
 @media (max-width: 768px) {
   .nav-toggle {
