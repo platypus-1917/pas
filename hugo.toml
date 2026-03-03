@@ -91,9 +91,13 @@ defaultContentLanguageInSubdir = false
   url = '/contact/'
   weight = 6
 [[languages.en.menus.main]]
+  name = 'Publishing'
+  url = '/publishing/'
+  weight = 7
+[[languages.en.menus.main]]
   name = 'Donate'
   url = '/donate/'
-  weight = 7
+  weight = 8
 
 # --- German menu ---
 [[languages.de.menus.main]]
