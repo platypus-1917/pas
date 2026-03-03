@@ -982,6 +982,278 @@ def transform_all():
 
 
 # ---------------------------------------------------------------------------
+# Incremental Sync
+# ---------------------------------------------------------------------------
+
+LAST_SYNC_FILE = SCRIPT_DIR / "data" / "last_sync.json"
+
+# Files that should never be overwritten, even with --force
+PROTECTED_PATTERNS = [
+    "_index.md",
+    "content/pages/publishing.md",
+]
+
+# Specific content files with manual frontmatter enhancements
+PROTECTED_SLUGS = {
+    "reading-groups": {"pedagogy", "primary-reading-group-archive",
+                       "georgetown-spring-2023-reading-group-introduction-to-revolutionary-marxism"},
+}
+
+
+def is_protected(filepath):
+    """Check if a file path is protected from overwrite."""
+    filepath_str = str(filepath)
+    if filepath.name == "_index.md":
+        return True
+    for pattern in PROTECTED_PATTERNS:
+        if pattern in filepath_str:
+            return True
+    # Check section-specific protected slugs
+    for section, slugs in PROTECTED_SLUGS.items():
+        if f"/{section}/" in filepath_str:
+            stem = filepath.stem  # filename without .md
+            if stem in slugs:
+                return True
+    return False
+
+
+def load_last_sync():
+    """Load last sync timestamp, or None if never synced."""
+    if LAST_SYNC_FILE.exists():
+        with open(LAST_SYNC_FILE, encoding="utf-8") as f:
+            data = json.load(f)
+        return data.get("last_sync")
+    return None
+
+
+def save_last_sync(timestamp, posts_synced, pages_synced):
+    """Save sync state."""
+    LAST_SYNC_FILE.parent.mkdir(parents=True, exist_ok=True)
+    with open(LAST_SYNC_FILE, "w", encoding="utf-8") as f:
+        json.dump({
+            "last_sync": timestamp,
+            "posts_synced": posts_synced,
+            "pages_synced": pages_synced,
+        }, f, indent=2)
+
+
+def fetch_since(since_date):
+    """Fetch posts and pages modified after a given ISO date string.
+
+    Also re-fetches categories (small payload, needed for classification).
+    Returns (posts, pages, categories).
+    """
+    RAW_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Ensure ISO datetime format (WP requires T00:00:00 suffix)
+    if "T" not in since_date:
+        since_date = f"{since_date}T00:00:00"
+
+    print(f"\nFetching content modified after {since_date}...")
+
+    # Always re-fetch categories (small, needed for classification)
+    print(f"\n{'='*60}")
+    print("Fetching categories...")
+    print(f"{'='*60}")
+    categories = fetch_paginated("categories", {}, label="categories")
+    cat_path = RAW_DIR / "categories.json"
+    with open(cat_path, "w", encoding="utf-8") as f:
+        json.dump(categories, f, ensure_ascii=False, indent=2)
+    print(f"  -> Saved {len(categories)} categories")
+
+    # Fetch posts modified after the date
+    print(f"\n{'='*60}")
+    print(f"Fetching posts modified after {since_date}...")
+    print(f"{'='*60}")
+    posts = fetch_paginated(
+        "posts",
+        {"status": "publish", "_embed": 1, "modified_after": since_date},
+        label="posts",
+    )
+    print(f"  -> Found {len(posts)} modified posts")
+
+    # Fetch pages modified after the date
+    print(f"\n{'='*60}")
+    print(f"Fetching pages modified after {since_date}...")
+    print(f"{'='*60}")
+    pages = fetch_paginated(
+        "pages",
+        {"status": "publish", "_embed": 1, "modified_after": since_date},
+        label="pages",
+    )
+    print(f"  -> Found {len(pages)} modified pages")
+
+    # Save sync data separately (don't overwrite full fetch files)
+    sync_dir = RAW_DIR / "sync"
+    sync_dir.mkdir(parents=True, exist_ok=True)
+    with open(sync_dir / "posts.json", "w", encoding="utf-8") as f:
+        json.dump(posts, f, ensure_ascii=False, indent=2)
+    with open(sync_dir / "pages.json", "w", encoding="utf-8") as f:
+        json.dump(pages, f, ensure_ascii=False, indent=2)
+
+    return posts, pages, categories
+
+
+def load_existing_redirects():
+    """Load existing redirect paths from _redirects file."""
+    existing = set()
+    if REDIRECTS_FILE.exists():
+        with open(REDIRECTS_FILE, encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith("#"):
+                    parts = line.split()
+                    if len(parts) >= 2:
+                        existing.add(parts[0])
+    return existing
+
+
+def append_redirects(new_redirects):
+    """Append new redirects to _redirects file (skip duplicates)."""
+    existing = load_existing_redirects()
+    to_add = [(old, new) for old, new in new_redirects if old not in existing]
+
+    if not to_add:
+        print("  No new redirects to add.")
+        return 0
+
+    with open(REDIRECTS_FILE, "a", encoding="utf-8") as f:
+        f.write(f"\n# Sync {datetime.now().isoformat()[:10]}\n")
+        for old_path, new_path in sorted(to_add):
+            f.write(f"{old_path} {new_path} 301\n")
+
+    return len(to_add)
+
+
+def sync_content(since=None, force=False):
+    """Incrementally sync new content from WordPress.
+
+    Fetches only posts/pages modified after `since` (or last sync date),
+    transforms them, and writes only new files (skipping existing ones
+    unless force=True). Appends new redirects.
+    """
+    # Determine cutoff date
+    if since is None:
+        since = load_last_sync()
+    if since is None:
+        print("Error: No previous sync found. Use --since YYYY-MM-DD or run a full 'fetch' + 'transform' first.")
+        sys.exit(1)
+
+    sync_timestamp = datetime.now().isoformat()
+
+    # Fetch new content
+    posts, pages, categories = fetch_since(since)
+
+    if not posts and not pages:
+        print("\nNo new content found. Everything is up to date.")
+        save_last_sync(sync_timestamp, 0, 0)
+        return
+
+    # Classify categories
+    print("\nClassifying categories...")
+    classified = classify_categories(categories)
+
+    # Load users (from existing raw data or empty)
+    users_path = RAW_DIR / "users.json"
+    if users_path.exists():
+        with open(users_path, encoding="utf-8") as f:
+            users = json.load(f)
+    else:
+        users = []
+    user_map = {u["id"]: u["name"] for u in users}
+
+    # Transform and write
+    redirects = []
+    written = 0
+    skipped_existing = 0
+    skipped_protected = 0
+
+    # Posts
+    print(f"\nTransforming {len(posts)} posts...")
+    for post in posts:
+        item = transform_post(post, classified, user_map, categories)
+        lang = item["lang"]
+        section = item["section"]
+        if lang != "en":
+            section_dir = CONTENT_DIR / lang / section
+        else:
+            section_dir = CONTENT_DIR / section
+        filepath = section_dir / f"{item['slug']}.md"
+
+        # Check protection
+        if is_protected(filepath):
+            print(f"  PROTECTED (skip): {filepath.relative_to(HUGO_ROOT)}")
+            skipped_protected += 1
+        elif filepath.exists() and not force:
+            skipped_existing += 1
+        else:
+            section_dir.mkdir(parents=True, exist_ok=True)
+            write_hugo_content(item, CONTENT_DIR)
+            written += 1
+            action = "UPDATED" if filepath.exists() else "NEW"
+            print(f"  {action}: {filepath.relative_to(HUGO_ROOT)}")
+
+        # Collect redirect
+        if item["old_path"]:
+            if lang != "en":
+                new_path = f"/{lang}/{section}/{item['slug']}/"
+            else:
+                new_path = f"/{section}/{item['slug']}/"
+            redirects.append((item["old_path"], new_path))
+
+    # Pages
+    print(f"\nTransforming {len(pages)} pages...")
+    for page in pages:
+        item = transform_page(page, classified, user_map, categories)
+        lang = item["lang"]
+        section = item["section"]
+        if lang != "en":
+            section_dir = CONTENT_DIR / lang / section
+        else:
+            section_dir = CONTENT_DIR / section
+        filepath = section_dir / f"{item['slug']}.md"
+
+        if is_protected(filepath):
+            print(f"  PROTECTED (skip): {filepath.relative_to(HUGO_ROOT)}")
+            skipped_protected += 1
+        elif filepath.exists() and not force:
+            skipped_existing += 1
+        else:
+            section_dir.mkdir(parents=True, exist_ok=True)
+            write_hugo_content(item, CONTENT_DIR)
+            written += 1
+            action = "UPDATED" if filepath.exists() else "NEW"
+            print(f"  {action}: {filepath.relative_to(HUGO_ROOT)}")
+
+        if item["old_path"]:
+            if lang != "en":
+                new_path = f"/{lang}/{item['section']}/{item['slug']}/"
+            else:
+                new_path = f"/{item['section']}/{item['slug']}/"
+            redirects.append((item["old_path"], new_path))
+
+    # Append redirects
+    print(f"\nProcessing redirects...")
+    new_redirect_count = append_redirects(redirects)
+
+    # Save sync state
+    save_last_sync(sync_timestamp, len(posts), len(pages))
+
+    # Summary
+    print(f"\n{'='*60}")
+    print("Sync complete!")
+    print(f"{'='*60}")
+    print(f"  Fetched: {len(posts)} posts, {len(pages)} pages")
+    print(f"  Written: {written} files")
+    print(f"  Skipped (already exists): {skipped_existing}")
+    print(f"  Skipped (protected): {skipped_protected}")
+    print(f"  New redirects: {new_redirect_count}")
+    print(f"  Sync state saved to: {LAST_SYNC_FILE}")
+    if skipped_existing > 0:
+        print(f"\n  Tip: Use --force to overwrite existing (non-protected) files.")
+
+
+# ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
 
@@ -989,8 +1261,18 @@ def main():
     parser = argparse.ArgumentParser(description="Migrate platypus1917.org to Hugo")
     parser.add_argument(
         "command",
-        choices=["fetch", "transform", "all"],
-        help="fetch: download from WP API | transform: convert to Hugo | all: both",
+        choices=["fetch", "transform", "all", "sync"],
+        help="fetch: full WP API download | transform: full content rewrite | "
+             "all: fetch+transform | sync: incremental update",
+    )
+    parser.add_argument(
+        "--since",
+        help="ISO date for sync cutoff (default: last sync date). Example: 2026-03-01",
+    )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Overwrite existing files during sync (protected files still skipped)",
     )
     args = parser.parse_args()
 
@@ -999,6 +1281,9 @@ def main():
 
     if args.command in ("transform", "all"):
         transform_all()
+
+    if args.command == "sync":
+        sync_content(since=args.since, force=args.force)
 
 
 if __name__ == "__main__":

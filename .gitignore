@@ -9,6 +9,8 @@ __pycache__/
 
 # Raw WP API data (large, re-fetchable)
 scripts/data/raw/
+scripts/data/last_sync.json
+scripts/data/classification.json
 
 # OS
 .DS_Store
