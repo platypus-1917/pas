@@ -1,0 +1,25 @@
+books:
+  - title: "Platypus Review Reader, Volume I"
+    description: "A collection of key essays from The Platypus Review exploring the crisis of the contemporary Left and the meaning of its historical transformations."
+    cover: "/uploads/prtest1-5-231x300.jpg"
+    editions:
+      - type: "Hardcover"
+        url: "https://platypus-publishing.square.site/product/pr-reader-i-hard-/1?si=true"
+      - type: "Softcover"
+        url: "https://platypus-publishing.square.site/product/pr-reader-i-soft-/6?si=true"
+
+  - title: "Platypus Review Reader, Volume II"
+    description: "The second volume of collected writings from The Platypus Review, continuing the project of critical engagement with the history and legacy of the Left."
+    cover: "/uploads/bkground-2-232x300.jpg"
+    editions:
+      - type: "Hardcover"
+        url: "https://platypus-publishing.square.site/product/pr-reader-ii-hard-/2?si=true"
+      - type: "Softcover"
+        url: "https://platypus-publishing.square.site/product/pr-reader-ii-soft-/4?si=true"
+
+  - title: "Marxism in the Age of Trump"
+    description: "A critical examination of the state of Marxism and the Left in the political landscape shaped by the Trump era."
+    cover: "/uploads/marx-3-240x300.jpg"
+    editions:
+      - type: "Buy Now"
+        url: "https://platypus-publishing.square.site/product/marxism-in-age-of-trump/5?si=true"

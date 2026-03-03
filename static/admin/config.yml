@@ -266,3 +266,24 @@ collections:
                       - { label: "Chapter Name", name: "name", widget: "string" }
                       - { label: "Link URL", name: "url", widget: "string" }
           - { label: "Remote Note", name: "remote_note", widget: "text", required: false }
+
+  - name: "publishing-data"
+    label: "Publishing"
+    files:
+      - label: "Book Listings"
+        name: "publishing"
+        file: "data/publishing.yml"
+        fields:
+          - label: "Books"
+            name: "books"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Cover Image", name: "cover", widget: "image" }
+              - label: "Editions"
+                name: "editions"
+                widget: "list"
+                fields:
+                  - { label: "Type (e.g. Hardcover, Softcover)", name: "type", widget: "string" }
+                  - { label: "Purchase URL", name: "url", widget: "string" }

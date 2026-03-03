@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="publishing-page">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  {{ with .Site.Data.publishing }}
+  <div class="book-grid">
+    {{ range .books }}
+    <div class="book-card">
+      <div class="book-cover">
+        <img src="{{ .cover }}" alt="{{ .title }}">
+      </div>
+      <div class="book-info">
+        <h2>{{ .title }}</h2>
+        <p class="book-description">{{ .description }}</p>
+        <div class="book-editions">
+          {{ range .editions }}
+          <a href="{{ .url }}" class="book-buy-link" target="_blank" rel="noopener">{{ .type }}</a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}
