@@ -365,3 +365,31 @@ collections:
             fields:
               - { label: "Issue Number", name: "number", widget: "number", value_type: "int" }
               - { label: "Publication Date", name: "date", widget: "string", hint: "e.g. February 2026, July-August 2025" }
+
+  - name: "die-platypus-review-data"
+    label: "Die Platypus Review (Deutsch)"
+    files:
+      - label: "Review-Seitendaten"
+        name: "die-platypus-review"
+        file: "data/die_platypus_review.yml"
+        fields:
+          - { label: "Aktuelle Ausgabe", name: "current_issue", widget: "number", value_type: "int" }
+          - { label: "Zielsetzung", name: "editorial_statement", widget: "text" }
+          - { label: "Zielsetzung (vollständig)", name: "editorial_statement_full", widget: "text" }
+          - { label: "Richtlinien zur Einsendung", name: "submission_guidelines", widget: "text" }
+          - { label: "Einsendung-Email", name: "submission_email", widget: "string" }
+          - label: "Redaktion"
+            name: "staff"
+            widget: "list"
+            fields:
+              - { label: "Rolle", name: "role", widget: "string" }
+              - label: "Namen"
+                name: "names"
+                widget: "list"
+                field: { label: "Name", name: "name", widget: "string" }
+          - label: "Ausgaben"
+            name: "issues"
+            widget: "list"
+            fields:
+              - { label: "Ausgabe-Nummer", name: "number", widget: "number", value_type: "int" }
+              - { label: "Erscheinungsdatum", name: "date", widget: "string", hint: "z.B. November/Dezember 2025, Sommer 2021" }

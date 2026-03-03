@@ -3,14 +3,35 @@
   <h1>{{ .Title }}</h1>
   {{ .Content }}
 
+  {{/* Language-aware data and labels */}}
   {{ $reviewData := .Site.Data.platypus_review }}
+  {{ $lblCurrentIssue := "Current Issue" }}
+  {{ $lblEditorial := "Editorial Statement" }}
+  {{ $lblSubmissions := "Submissions" }}
+  {{ $lblStaff := "Staff" }}
+  {{ $lblFundedBy := "Funded By" }}
+  {{ $lblArchive := "Archive" }}
+  {{ $lblAllArticles := "All Articles" }}
+  {{ $lblRedaktion := "Redaktion" }}
+  {{ $archiveBase := "/review/" }}
+  {{ if eq .Lang "de" }}
+    {{ $reviewData = .Site.Data.die_platypus_review }}
+    {{ $lblCurrentIssue = "Aktuelle Ausgabe" }}
+    {{ $lblEditorial = "Zielsetzung" }}
+    {{ $lblSubmissions = "Richtlinien zur Einsendung von Beiträgen" }}
+    {{ $lblStaff = "Redaktion" }}
+    {{ $lblFundedBy = "Gefördert von" }}
+    {{ $lblArchive = "Archiv" }}
+    {{ $lblAllArticles = "Alle Artikel" }}
+    {{ $archiveBase = "/de/review/" }}
+  {{ end }}
   {{ $currentIssue := $reviewData.current_issue }}
 
   {{/* Current Issue */}}
   {{ $currentArticles := where .Pages ".Params.issue" $currentIssue }}
   {{ with $currentArticles }}
   <section class="pr-section">
-    <h2>Current Issue — #{{ $currentIssue }}</h2>
+    <h2>{{ $lblCurrentIssue }} — #{{ $currentIssue }}</h2>
     <div class="article-list">
       {{ range . }}
         {{ partial "article-card.html" . }}
@@ -23,14 +44,14 @@
   <div class="pr-info-grid">
     {{ with $reviewData.editorial_statement }}
     <div class="pr-info-box">
-      <h3>Editorial Statement</h3>
+      <h3>{{ $lblEditorial }}</h3>
       <p>{{ . }}</p>
     </div>
     {{ end }}
 
     {{ with $reviewData.submission_guidelines }}
     <div class="pr-info-box">
-      <h3>Submissions</h3>
+      <h3>{{ $lblSubmissions }}</h3>
       <p>{{ . }}</p>
       {{ with $reviewData.submission_email }}
       <a href="mailto:{{ . }}" class="pr-submit-link">{{ . }}</a>
@@ -42,7 +63,7 @@
   {{/* Staff */}}
   {{ with $reviewData.staff }}
   <section class="pr-section pr-staff">
-    <h3>Staff</h3>
+    <h3>{{ $lblStaff }}</h3>
     <dl class="pr-staff-list">
       {{ range . }}
       <div class="pr-staff-item">
@@ -57,7 +78,7 @@
   {{/* Funded By */}}
   {{ with $reviewData.funded_by }}
   <section class="pr-section pr-funded">
-    <h3>Funded By</h3>
+    <h3>{{ $lblFundedBy }}</h3>
     <p class="pr-funders">{{ delimit . " · " }}</p>
   </section>
   {{ end }}
@@ -65,10 +86,10 @@
   {{/* Archive by Issue */}}
   {{ with $reviewData.issues }}
   <section class="pr-section">
-    <h2>Archive</h2>
+    <h2>{{ $lblArchive }}</h2>
     {{ $lastYear := "" }}
     {{ range . }}
-      {{/* Extract year from date string */}}
+      {{/* Extract year from date string (last space-separated token) */}}
       {{ $parts := split .date " " }}
       {{ $year := index $parts (sub (len $parts) 1) }}
       {{ if ne $year $lastYear }}
@@ -77,7 +98,7 @@
         <div class="pr-archive-year-grid">
         {{ $lastYear = $year }}
       {{ end }}
-      <a href="/review/page/1/?issue={{ .number }}" class="pr-issue-pill">
+      <a href="{{ $archiveBase }}page/1/?issue={{ .number }}" class="pr-issue-pill">
         <span class="pr-issue-num">#{{ .number }}</span>
         <span class="pr-issue-date">{{ .date }}</span>
       </a>
@@ -88,7 +109,7 @@
 
   {{/* All articles paginated */}}
   <section class="pr-section">
-    <h2>All Articles</h2>
+    <h2>{{ $lblAllArticles }}</h2>
     <div class="article-list">
       {{ range .Paginator.Pages }}
         {{ partial "article-card.html" . }}

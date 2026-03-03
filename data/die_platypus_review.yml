@@ -1,0 +1,108 @@
+current_issue: 37
+
+editorial_statement: >
+  Überblickt man das Universum der verschiedenen Positionen und Ziele, die
+  linke Politik heute ausmachen, so wird man den beunruhigenden Verdacht nicht
+  los, dass sich hinter der scheinbaren Vielfalt eine grundlegende
+  Gemeinsamkeit verbirgt: Was heute existiert, wurde auf den Trümmern dessen
+  errichtet, was einst möglich war.
+
+editorial_statement_full: >
+  Überblickt man das Universum der verschiedenen Positionen und Ziele, die
+  linke Politik heute ausmachen, so wird man den beunruhigenden Verdacht nicht
+  los, dass sich hinter der scheinbaren Vielfalt eine grundlegende
+  Gemeinsamkeit verbirgt: Was heute existiert, wurde auf den Trümmern dessen
+  errichtet, was einst möglich war.
+
+  Zum Verständnis unserer Gegenwart erachten wir es für notwendig, die
+  unüberschaubare Anhäufung von Positionen zu entwirren, um ihre Bedeutung
+  für eine mögliche Rekonstitution emanzipatorischer Politik in der Gegenwart
+  zu erkennen. Dafür ist es nötig zu überdenken, was eigentlich mit dem
+  Begriff der Linken gemeint ist.
+
+  Unsere Aufgabe beginnt dort, wo wir eine grundsätzliche Desillusionierung
+  des gegenwärtigen Zustands progressiver Politik wahrnehmen. Wir denken,
+  dass sich diese Ernüchterung nicht einfach durch puren Willen abschütteln
+  lässt – durch ein einfaches „Weiter so!" Sie muss stattdessen explizit
+  angesprochen werden und selbst als ein Objekt der Kritik zugänglich gemacht
+  werden. Daher beginnen wir mit dem, was uns unmittelbar entgegentritt.
+
+  Die Platypus Review wird von der Einsicht motiviert, dass die Linke
+  orientierungslos ist. Wir möchte ein Forum für ein weites Spektrum an
+  Strömungen und Ansätzen innerhalb der Linken bieten – nicht, weil wir
+  Inklusion und Pluralität als Selbstzweck ansehen, sondern weil wir
+  Uneinigkeit provozieren und gemeinsame Ziele als Orte der
+  Auseinandersetzung eröffnen wollen. Auf diesem Weg könnten die aus den
+  alten politischen Auseinandersetzungen resultierenden Anschuldigungen zum
+  Zweck der Klärung des Objekts linker Kritik fruchtbar gemacht werden.
+
+  Die Platypus Review setzt sich zum Ziel, eine Plattform zu schaffen und zu
+  erhalten, die eine Erforschung und Klärung von Positionen und
+  Orientierungen, die heute innerhalb der Linken vertreten werden, möglich
+  macht; einen Ort, an dem Fragen aufgeworfen und Diskussionen verfolgt
+  werden können, die ansonsten nicht stattfinden würden. Solange die Beiträge
+  eine ehrliche Bereitschaft für dieses Projekt zeigen, werden sie in unserer
+  Diskussion berücksichtigt.
+
+submission_guidelines: >
+  Artikel in der Platypus Review haben normalerweise eine Länge von
+  5.000–40.000 Zeichen (mit Leerzeichen), längere Beiträge können auch
+  berücksichtigt werden. Für entsprechende Anfragen und Beiträge bitte eine
+  Email an die.platypus.review@gmail.com senden.
+
+submission_email: "die.platypus.review@gmail.com"
+
+staff:
+  - role: "Chefredakteur"
+    names: ["Moritz Schiffmann"]
+  - role: "Korrektoren/Korrektorinnen"
+    names: ["Jim Igor Kallenberg", "Thuy Linh Pham", "Florian Piffl", "Jonas Reiber", "Hannes Metzing", "Victoria Wenzel"]
+  - role: "Designer"
+    names: ["Franka Nowak", "Jakob Trescher", "Theresa Wünsch"]
+  - role: "Web-Editor"
+    names: ["Johannes H."]
+  - role: "Social Media Editor"
+    names: ["Jule Hoffmann"]
+  - role: "Versand"
+    names: ["Arthur Hoffmann"]
+  - role: "Finanzen"
+    names: ["Artur B."]
+
+issues:
+  - { number: 37, date: "November/Dezember 2025" }
+  - { number: 36, date: "September/Oktober 2025" }
+  - { number: 35, date: "Januar-August 2025" }
+  - { number: 34, date: "November/Dezember 2024" }
+  - { number: 33, date: "September/Oktober 2024" }
+  - { number: 32, date: "Juli/August 2024" }
+  - { number: 31, date: "Mai/Juni 2024" }
+  - { number: 30, date: "März/April 2024" }
+  - { number: 29, date: "Januar/Februar 2024" }
+  - { number: 28, date: "November/Dezember 2023" }
+  - { number: 27, date: "September/Oktober 2023" }
+  - { number: 26, date: "Juli/August 2023" }
+  - { number: 25, date: "Mai/Juni 2023" }
+  - { number: 24, date: "März/April 2023" }
+  - { number: 23, date: "Januar/Februar 2023" }
+  - { number: 22, date: "November/Dezember 2022" }
+  - { number: 21, date: "September/Oktober 2022" }
+  - { number: 20, date: "Juli/August 2022" }
+  - { number: 19, date: "Mai/Juni 2022" }
+  - { number: 18, date: "März/April 2022" }
+  - { number: 17, date: "Winter 2021" }
+  - { number: 16, date: "Herbst 2021" }
+  - { number: 15, date: "Sommer 2021" }
+  - { number: 14, date: "November 2020" }
+  - { number: 13, date: "Sommer 2020" }
+  - { number: 12, date: "Frühjahr 2020" }
+  - { number: 11, date: "Winter 2019" }
+  - { number: 10, date: "Winter 2018" }
+  - { number: 9, date: "Sommer 2018" }
+  - { number: 8, date: "Sommer 2018" }
+  - { number: 7, date: "Frühjahr 2018" }
+  - { number: 6, date: "Herbst 2017" }
+  - { number: 5, date: "Sommer 2017" }
+  - { number: 4, date: "Frühjahr 2017" }
+  - { number: 3, date: "Winter 2016" }
+  - { number: 2, date: "Sommer 2016" }
+  - { number: 1, date: "Frühjahr 2016" }
