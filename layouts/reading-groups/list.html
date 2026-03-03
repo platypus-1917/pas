@@ -3,9 +3,8 @@
   <h1>{{ .Title }}</h1>
   {{ .Content }}
 
+  {{/* Current reading groups from content pages with status: current */}}
   {{ $current := where .Pages ".Params.status" "current" }}
-  {{ $archive := .Pages | complement $current }}
-
   {{ with $current }}
   <section class="rg-section">
     <h2>Current Reading Groups</h2>
@@ -28,15 +27,31 @@
   </section>
   {{ end }}
 
-  {{ with $archive }}
+  {{/* Hub categories from data file */}}
+  {{ with .Site.Data.reading_group_hub }}
+  {{ range .categories }}
   <section class="rg-section">
-    <h2>Archive</h2>
-    <div class="article-list">
-      {{ range . }}
-        {{ partial "article-card.html" . }}
+    <h2>{{ .name }}</h2>
+    {{ with .description }}<p class="rg-category-desc">{{ . }}</p>{{ end }}
+    <ul class="rg-entry-list">
+      {{ range .entries }}
+      <li>
+        <a href="{{ .url }}">{{ .title }}</a>
+        {{ with .date }}<span class="rg-entry-date">{{ . }}</span>{{ end }}
+      </li>
       {{ end }}
-    </div>
+    </ul>
+    {{ with .archive_url }}
+    <a href="{{ . }}" class="rg-archive-link">Full archive</a>
+    {{ end }}
   </section>
+  {{ end }}
+
+  {{ with .contact_email }}
+  <div class="rg-contact-note">
+    <p>Platypus reading groups are held at universities worldwide. If there is no reading group in your area, contact <a href="mailto:{{ . }}">{{ . }}</a> to find out how to join remotely.</p>
+  </div>
+  {{ end }}
   {{ end }}
 </div>
 {{ end }}

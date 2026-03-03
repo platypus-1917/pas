@@ -736,6 +736,62 @@ a:hover {
   color: #27ae60;
 }
 
+.rg-category-desc {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.rg-entry-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.rg-entry-list li {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  padding: 0.3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.rg-entry-date {
+  color: var(--color-text-muted);
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.rg-archive-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+.rg-archive-link:hover {
+  color: var(--color-accent-hover);
+}
+
+.rg-contact-note {
+  margin-top: 2rem;
+  padding: 1rem 1.25rem;
+  background: #f0f0f0;
+  border-radius: 4px;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.rg-contact-note a {
+  color: var(--color-accent);
+}
+
 /* === Responsive === */
 @media (max-width: 768px) {
   .nav-toggle {
