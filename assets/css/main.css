@@ -918,21 +918,44 @@ a:hover {
   line-height: 1.8;
 }
 
-.pr-archive-grid {
+.pr-archive-year {
+  font-family: var(--font-sans);
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-text-muted);
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 0.3rem;
+}
+
+.pr-archive-year-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
+  gap: 0.5rem;
 }
 
 .pr-issue-pill {
-  display: inline-block;
-  padding: 0.3em 0.7em;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.4em 0.7em;
   background: var(--color-header-bg);
   color: var(--color-header-text);
   border-radius: 3px;
   font-family: var(--font-sans);
-  font-size: 0.8rem;
+  text-align: center;
+  line-height: 1.3;
+  min-width: 5.5rem;
+}
+
+.pr-issue-num {
+  font-size: 0.85rem;
   font-weight: 600;
+}
+
+.pr-issue-date {
+  font-size: 0.7rem;
+  opacity: 0.8;
 }
 
 .pr-issue-pill:hover {

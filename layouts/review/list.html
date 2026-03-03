@@ -63,23 +63,28 @@
   {{ end }}
 
   {{/* Archive by Issue */}}
+  {{ with $reviewData.issues }}
   <section class="pr-section">
     <h2>Archive</h2>
-    {{ $allIssues := slice }}
-    {{ range .Pages }}
-      {{ with .Params.issue }}
-        {{ $allIssues = $allIssues | append (int .) }}
+    {{ $lastYear := "" }}
+    {{ range . }}
+      {{/* Extract year from date string */}}
+      {{ $parts := split .date " " }}
+      {{ $year := index $parts (sub (len $parts) 1) }}
+      {{ if ne $year $lastYear }}
+        {{ if ne $lastYear "" }}</div>{{ end }}
+        <h3 class="pr-archive-year">{{ $year }}</h3>
+        <div class="pr-archive-year-grid">
+        {{ $lastYear = $year }}
       {{ end }}
+      <a href="/review/page/1/?issue={{ .number }}" class="pr-issue-pill">
+        <span class="pr-issue-num">#{{ .number }}</span>
+        <span class="pr-issue-date">{{ .date }}</span>
+      </a>
     {{ end }}
-    {{ $uniqueIssues := $allIssues | uniq | sort | collections.Reverse }}
-    <div class="pr-archive-grid">
-      {{ range $uniqueIssues }}
-      {{ if ne . (int $currentIssue) }}
-      <a href="#issue-{{ . }}" class="pr-issue-pill">#{{ . }}</a>
-      {{ end }}
-      {{ end }}
-    </div>
+    {{ if ne $lastYear "" }}</div>{{ end }}
   </section>
+  {{ end }}
 
   {{/* All articles paginated */}}
   <section class="pr-section">

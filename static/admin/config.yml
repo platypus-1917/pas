@@ -359,3 +359,9 @@ collections:
             name: "funded_by"
             widget: "list"
             field: { label: "Organization", name: "org", widget: "string" }
+          - label: "Issues"
+            name: "issues"
+            widget: "list"
+            fields:
+              - { label: "Issue Number", name: "number", widget: "number", value_type: "int" }
+              - { label: "Publication Date", name: "date", widget: "string", hint: "e.g. February 2026, July-August 2025" }
