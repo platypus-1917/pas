@@ -35,9 +35,12 @@
     {{ with .description }}<p class="rg-category-desc">{{ . }}</p>{{ end }}
     <ul class="rg-entry-list">
       {{ range .entries }}
-      <li>
-        <a href="{{ .url }}">{{ .title }}</a>
-        {{ with .date }}<span class="rg-entry-date">{{ . }}</span>{{ end }}
+      <li{{ with .image }} class="has-thumb"{{ end }}>
+        {{ with .image }}<img class="rg-thumb" src="{{ . }}" alt="">{{ end }}
+        <div class="rg-entry-info">
+          <a href="{{ .url }}">{{ .title }}</a>
+          {{ with .date }}<span class="rg-entry-date">{{ . }}</span>{{ end }}
+        </div>
       </li>
       {{ end }}
     </ul>

@@ -331,5 +331,6 @@ collections:
                   - { label: "Title", name: "title", widget: "string" }
                   - { label: "URL", name: "url", widget: "string" }
                   - { label: "Date", name: "date", widget: "string", required: false }
+                  - { label: "Thumbnail", name: "image", widget: "image", required: false }
               - { label: "Archive URL", name: "archive_url", widget: "string", required: false }
           - { label: "Contact Email", name: "contact_email", widget: "string", required: false }
